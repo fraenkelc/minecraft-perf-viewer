@@ -4,6 +4,7 @@
   "description": "A viewer for minecraft /perf output",
   "productName": "Minecraft /Perf viewer",
   "author": "Christian Fraenkel <fraenkelc@users.noreply.github.com>",
+  "license": "Apache-2.0",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",
@@ -14,7 +15,8 @@
     "test:unit:watch": "jest --watch",
     "test:unit:watchAll": "jest --watchAll",
     "serve:test:coverage": "quasar serve test/jest/coverage/lcov-report/ --port 8788",
-    "concurrently:dev:jest": "concurrently \"quasar dev\" \"jest --watch\""
+    "concurrently:dev:jest": "concurrently \"quasar dev\" \"jest --watch\"",
+    "build": "quasar build"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
@@ -27,6 +29,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.13.14",
+    "@cyclonedx/webpack-plugin": "^1.0.1",
     "@quasar/app": "^3.0.0",
     "@quasar/quasar-app-extension-testing": "^2.0.1",
     "@quasar/quasar-app-extension-testing-unit-jest": "^3.0.0-alpha.7",
