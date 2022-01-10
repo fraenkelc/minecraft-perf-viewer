@@ -21,7 +21,7 @@
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "core-js": "^3.6.5",
-    "d3": "^7.2.1",
+    "d3": "^7.3.0",
     "jszip": "^3.7.1",
     "plotly.js": "^2.8.3",
     "quasar": "^2.4.3",
