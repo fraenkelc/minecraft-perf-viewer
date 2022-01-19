@@ -11,7 +11,7 @@ on:
       mustBeGreen:
         description: 'Only combine PRs that are green (status is success)'
         required: true
-        default: true
+        default: 'true'
       combineBranchName:
         description: 'Name of the branch to combine PRs into'
         required: true
@@ -51,16 +51,14 @@ jobs:
                 statusOK = true;
                 if(${{ github.event.inputs.mustBeGreen }}) {
                   console.log('Checking green status: ' + branch);
-                  const statuses = await github.paginate('GET /repos/{owner}/{repo}/commits/{ref}/status', {
+                  const checks = await github.paginate('GET /repos/{owner}/{repo}/commits/{ref}/check-runs', {
                     owner: context.repo.owner,
                     repo: context.repo.repo,
                     ref: branch
                   });
-                  if(statuses.length > 0) {
-                    const latest_status = statuses[0]['state'];
-                    console.log('Validating status: ' + latest_status);
-                    if(latest_status != 'success') {
-                      console.log('Discarding ' + branch + ' with status ' + latest_status);
+                  for (const check of checks) {
+                    if (!['skipped', 'success'].includes(check.conclusion)) {
+                      console.log('Discarding ' + branch + ' with check '+ check.name +' conclusion ' + check.conclusion);
                       statusOK = false;
                     }
                   }
@@ -117,7 +115,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           
-          git branch $COMBINE_BRANCH_NAME $basebranch
+          git branch $COMBINE_BRANCH_NAME refs/remotes/origin/$basebranch
           git checkout $COMBINE_BRANCH_NAME
           git pull origin $sourcebranches --no-edit
           git push origin $COMBINE_BRANCH_NAME
@@ -131,7 +129,7 @@ jobs:
           script: |
             const prString = process.env.PRS_STRING;
             const body = 'This PR was created by the Combine PRs action by combining the following PRs:\n' + prString;
-            await github.pulls.create({
+            await github.rest.pulls.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: 'Combined PR',
