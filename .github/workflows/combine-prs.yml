@@ -115,7 +115,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           
-          git branch $COMBINE_BRANCH_NAME $basebranch
+          git branch $COMBINE_BRANCH_NAME refs/remotes/origin/$basebranch
           git checkout $COMBINE_BRANCH_NAME
           git pull origin $sourcebranches --no-edit
           git push origin $COMBINE_BRANCH_NAME
