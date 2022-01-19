@@ -31,7 +31,7 @@ import PerfZipSelector from 'src/components/PerfZipSelector.vue'
 import DimensionPicker from 'src/components/DimensionPicker.vue'
 
 export default defineComponent({
-    name: 'Layout',
+    name: 'AppLayout',
 
     components: {
         PerfZipSelector,
