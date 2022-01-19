@@ -76,6 +76,7 @@ module.exports = configure(function (ctx) {
       chainWebpack(chain) {
         const nodePolyfillWebpackPlugin = require('node-polyfill-webpack-plugin');
         chain.plugin('node-polyfill').use(nodePolyfillWebpackPlugin);
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
         const { CycloneDxWebpackPlugin } = require('@cyclonedx/webpack-plugin');
         chain.plugin('cyclondx-webpack').use(CycloneDxWebpackPlugin);
       },

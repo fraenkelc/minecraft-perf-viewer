@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.12.4",
-    "core-js": "^3.6.5",
+    "core-js": "^3.20.3",
     "d3": "^7.3.0",
     "jszip": "^3.7.1",
     "plotly.js": "^2.8.3",
@@ -31,7 +31,7 @@
     "@babel/eslint-parser": "^7.13.14",
     "@cyclonedx/webpack-plugin": "^1.0.1",
     "@quasar/app": "^3.2.9",
-    "@quasar/quasar-app-extension-testing": "^2.0.1",
+    "@quasar/quasar-app-extension-testing": "^2.0.2",
     "@quasar/quasar-app-extension-testing-unit-jest": "^3.0.0-alpha.8",
     "@types/d3": "^7.1.0",
     "@types/node": "^17.0.10",
@@ -42,7 +42,7 @@
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-jest": "^25.7.0",
-    "eslint-plugin-vue": "^7.0.0",
+    "eslint-plugin-vue": "^8.3.0",
     "node-polyfill-webpack-plugin": "^1.1.4",
     "quasar-app-extension-qhierarchy": "^1.0.0-alpha.1"
   },
