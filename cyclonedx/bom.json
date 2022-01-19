@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.3",
-  "serialNumber": "urn:uuid:ea926326-1ea5-4c6c-8abb-c86631a3d6f1",
+  "serialNumber": "urn:uuid:939d4242-8b3e-4295-9353-bdb14a3afc83",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-01-19T20:33:25.786Z",
+    "timestamp": "2022-01-19T20:36:47.587Z",
     "tools": [
       {
         "vendor": "CycloneDX",
@@ -1072,6 +1072,41 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:npm/jszip@3.7.1",
+      "name": "jszip",
+      "version": "3.7.1",
+      "description": "Create, read and edit .zip files with JavaScript http://stuartk.com/jszip",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8212f4b73d571bd64499131c10ddafb7bc5a6eb0dda871deca4800469999d0188872d5b1338ed5b7add93b6767a78418b7fc4954b2f2e59bf597fc51761d9bca"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "(MIT OR GPL-3.0-or-later)"
+          }
+        }
+      ],
+      "purl": "pkg:npm/jszip@3.7.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/Stuk/jszip#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Stuk/jszip/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/Stuk/jszip.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:npm/has-symbols@1.0.2",
       "name": "has-symbols",
       "version": "1.0.2",
@@ -1177,36 +1212,36 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/jszip@3.7.1",
-      "name": "jszip",
-      "version": "3.7.1",
-      "description": "Create, read and edit .zip files with JavaScript http://stuartk.com/jszip",
+      "bom-ref": "pkg:npm/plotly.js@2.8.3",
+      "name": "plotly.js",
+      "version": "2.8.3",
+      "description": "The open source javascript graphing library that powers plotly",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "8212f4b73d571bd64499131c10ddafb7bc5a6eb0dda871deca4800469999d0188872d5b1338ed5b7add93b6767a78418b7fc4954b2f2e59bf597fc51761d9bca"
+          "content": "b808094bc004264adb18742c301e848f76b65d2089961a11248585321299aba8c57ac82e4a8cde287f032dd9e7d6e64b315c6940129694bb32e5e4d6724ce2d6"
         }
       ],
       "licenses": [
         {
           "license": {
-            "name": "(MIT OR GPL-3.0-or-later)"
+            "id": "MIT"
           }
         }
       ],
-      "purl": "pkg:npm/jszip@3.7.1",
+      "purl": "pkg:npm/plotly.js@2.8.3",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/Stuk/jszip#readme"
+          "url": "https://github.com/plotly/plotly.js#readme"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/Stuk/jszip/issues"
+          "url": "https://github.com/plotly/plotly.js/issues"
         },
         {
           "type": "vcs",
-          "url": "git+https://github.com/Stuk/jszip.git"
+          "url": "git+https://github.com/plotly/plotly.js.git"
         }
       ]
     },
@@ -1242,41 +1277,6 @@
         {
           "type": "vcs",
           "url": "git://github.com/Raynos/function-bind.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/plotly.js@2.8.3",
-      "name": "plotly.js",
-      "version": "2.8.3",
-      "description": "The open source javascript graphing library that powers plotly",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "b808094bc004264adb18742c301e848f76b65d2089961a11248585321299aba8c57ac82e4a8cde287f032dd9e7d6e64b315c6940129694bb32e5e4d6724ce2d6"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/plotly.js@2.8.3",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/plotly/plotly.js#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/plotly/plotly.js/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/plotly/plotly.js.git"
         }
       ]
     },
@@ -2964,41 +2964,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/d3-time-format@2.3.0",
-      "name": "d3-time-format",
-      "version": "2.3.0",
-      "description": "A JavaScript time formatter and parser inspired by strftime and strptime.",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "82ebfa6f61f7eecd94abf19e7e57820ed6ded17640bb2ed66b8f551a43d53cc7cb2fda8e6e00524f79441c904c529f12ecd74b400188bebd8a5e4f0773df2229"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause"
-          }
-        }
-      ],
-      "purl": "pkg:npm/d3-time-format@2.3.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://d3js.org/d3-time-format/"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/d3/d3-time-format/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/d3/d3-time-format.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/world-calendars@1.0.3",
       "name": "world-calendars",
       "version": "1.0.3",
@@ -3029,6 +2994,41 @@
         {
           "type": "vcs",
           "url": "git+https://github.com/alexcjohnson/world-calendars.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/d3-time-format@2.3.0",
+      "name": "d3-time-format",
+      "version": "2.3.0",
+      "description": "A JavaScript time formatter and parser inspired by strftime and strptime.",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "82ebfa6f61f7eecd94abf19e7e57820ed6ded17640bb2ed66b8f551a43d53cc7cb2fda8e6e00524f79441c904c529f12ecd74b400188bebd8a5e4f0773df2229"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/d3-time-format@2.3.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://d3js.org/d3-time-format/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/d3/d3-time-format/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/d3/d3-time-format.git"
         }
       ]
     },
@@ -3069,41 +3069,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/gl-mat4@1.2.0",
-      "name": "gl-mat4",
-      "version": "1.2.0",
-      "description": "gl-matrix's mat4, split into smaller pieces",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "b13e42d29c01d7f7bd1bd02f0282eca1a26d6cc1a37ddfe37f1a3c8cc08aa986049e366e16fa95e6b7a1a9aaf4e77f049acb237437a21169cac81493c3baaea0"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Zlib"
-          }
-        }
-      ],
-      "purl": "pkg:npm/gl-mat4@1.2.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/stackgl/gl-mat4"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/stackgl/gl-mat4/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/stackgl/gl-mat4.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/robust-predicates@3.0.1",
       "name": "robust-predicates",
       "version": "3.0.1",
@@ -3134,6 +3099,41 @@
         {
           "type": "vcs",
           "url": "git+https://github.com/mourner/robust-predicates.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/gl-mat4@1.2.0",
+      "name": "gl-mat4",
+      "version": "1.2.0",
+      "description": "gl-matrix's mat4, split into smaller pieces",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b13e42d29c01d7f7bd1bd02f0282eca1a26d6cc1a37ddfe37f1a3c8cc08aa986049e366e16fa95e6b7a1a9aaf4e77f049acb237437a21169cac81493c3baaea0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ],
+      "purl": "pkg:npm/gl-mat4@1.2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/stackgl/gl-mat4"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/stackgl/gl-mat4/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/stackgl/gl-mat4.git"
         }
       ]
     },
@@ -3244,41 +3244,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/buffer@5.7.1",
-      "name": "buffer",
-      "version": "5.7.1",
-      "description": "Node.js Buffer API, for the browser",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "10773220f050e0148696f8c1d7a9392a0009dbb088b0763fd8906609145ea38f32f6b43731a533597dca56505ae14eccc97d361dd563d0aec2dd6681de3bbb15"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/buffer@5.7.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/feross/buffer"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/feross/buffer/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/feross/buffer.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/d3-hierarchy@1.1.9",
       "name": "d3-hierarchy",
       "version": "1.1.9",
@@ -3344,6 +3309,41 @@
         {
           "type": "vcs",
           "url": "git+https://github.com/d3/d3-interpolate.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/buffer@5.7.1",
+      "name": "buffer",
+      "version": "5.7.1",
+      "description": "Node.js Buffer API, for the browser",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "10773220f050e0148696f8c1d7a9392a0009dbb088b0763fd8906609145ea38f32f6b43731a533597dca56505ae14eccc97d361dd563d0aec2dd6681de3bbb15"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/buffer@5.7.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/feross/buffer"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/feross/buffer/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/feross/buffer.git"
         }
       ]
     },
@@ -3629,6 +3629,41 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:npm/gl-util@3.1.3",
+      "name": "gl-util",
+      "version": "3.1.3",
+      "description": "Set of practical webgl utils",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "76f453820c393129099c26e1ef88d9cd2a133869d560af81b7e0a4aa6dfd095725ebecd2b31a9693896be4d2a192a5c72faaaf64053d875ed917c988b2463d98"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/gl-util@3.1.3",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/dy/gl-util#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/dy/gl-util/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/dy/gl-util.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:npm/regl@2.1.0",
       "name": "regl",
       "version": "2.1.0",
@@ -3694,41 +3729,6 @@
         {
           "type": "vcs",
           "url": "git+https://github.com/voidqk/polybooljs.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/gl-util@3.1.3",
-      "name": "gl-util",
-      "version": "3.1.3",
-      "description": "Set of practical webgl utils",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "76f453820c393129099c26e1ef88d9cd2a133869d560af81b7e0a4aa6dfd095725ebecd2b31a9693896be4d2a192a5c72faaaf64053d875ed917c988b2463d98"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/gl-util@3.1.3",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/dy/gl-util#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/dy/gl-util/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/dy/gl-util.git"
         }
       ]
     },
@@ -4049,6 +4049,41 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:npm/webgl-context@2.2.0",
+      "name": "webgl-context",
+      "version": "2.2.0",
+      "description": "gets a WebGLRenderingContext",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8f37d7257cf6df1cd0a49e6a7b1b721b94cc86a0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/webgl-context@2.2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/mattdesl/webgl-context"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mattdesl/webgl-context/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/mattdesl/webgl-context.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:npm/raf@3.4.1",
       "name": "raf",
       "version": "3.4.1",
@@ -4114,41 +4149,6 @@
         {
           "type": "vcs",
           "url": "git://github.com/mattdesl/array-range.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/earcut@2.2.3",
-      "name": "earcut",
-      "version": "2.2.3",
-      "description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "8910c8d5078240884c099938f0344331581049204399bcf33619f1228fa9c31decc247e3321eaf8749d62ead4d76f1872ca1fac08ac0337bd059e4e3eaa7a8ba"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "ISC"
-          }
-        }
-      ],
-      "purl": "pkg:npm/earcut@2.2.3",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/mapbox/earcut#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/mapbox/earcut/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/mapbox/earcut.git"
         }
       ]
     },
@@ -4257,6 +4257,41 @@
         {
           "type": "vcs",
           "url": "git://github.com/Turfjs/turf.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/earcut@2.2.3",
+      "name": "earcut",
+      "version": "2.2.3",
+      "description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8910c8d5078240884c099938f0344331581049204399bcf33619f1228fa9c31decc247e3321eaf8749d62ead4d76f1872ca1fac08ac0337bd059e4e3eaa7a8ba"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/earcut@2.2.3",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/mapbox/earcut#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mapbox/earcut/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/mapbox/earcut.git"
         }
       ]
     },
@@ -4397,41 +4432,6 @@
         {
           "type": "vcs",
           "url": "git+https://github.com/sindresorhus/array-find-index.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/webgl-context@2.2.0",
-      "name": "webgl-context",
-      "version": "2.2.0",
-      "description": "gets a WebGLRenderingContext",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "8f37d7257cf6df1cd0a49e6a7b1b721b94cc86a0"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/webgl-context@2.2.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/mattdesl/webgl-context"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/mattdesl/webgl-context/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/mattdesl/webgl-context.git"
         }
       ]
     },
@@ -4752,41 +4752,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/topojson-client@3.1.0",
-      "name": "topojson-client",
-      "version": "3.1.0",
-      "description": "Manipulate TopoJSON and convert it to GeoJSON.",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "eb4e6ec52e9b718c465f0f6a8bad97cab57a437c706e776369c866371bbc1d64ed54fc597c424df5f77f4994b5439e129f6cb44ccc8cc458ff70920da861eb2b"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "ISC"
-          }
-        }
-      ],
-      "purl": "pkg:npm/topojson-client@3.1.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/topojson/topojson-client"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/topojson/topojson-client/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/topojson/topojson-client.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/d3-geo@1.12.1",
       "name": "d3-geo",
       "version": "1.12.1",
@@ -4822,6 +4787,41 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:npm/topojson-client@3.1.0",
+      "name": "topojson-client",
+      "version": "3.1.0",
+      "description": "Manipulate TopoJSON and convert it to GeoJSON.",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "eb4e6ec52e9b718c465f0f6a8bad97cab57a437c706e776369c866371bbc1d64ed54fc597c424df5f77f4994b5439e129f6cb44ccc8cc458ff70920da861eb2b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/topojson-client@3.1.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/topojson/topojson-client"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/topojson/topojson-client/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/topojson/topojson-client.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:npm/d3-force@1.2.1",
       "name": "d3-force",
       "version": "1.2.1",
@@ -4852,6 +4852,76 @@
         {
           "type": "vcs",
           "url": "git+https://github.com/d3/d3-force.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/d3-geo-projection@2.9.0",
+      "name": "d3-geo-projection",
+      "version": "2.9.0",
+      "description": "Extended geographic projections for d3-geo.",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6542ef2bfcc19fcee87f9ad601f14c73d9893a2a5e4a8e7b3be0418adb0a217994e2b4d50275f5912b09904d11f93c58f2918da0cd676f245113b1981e174e11"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/d3-geo-projection@2.9.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://d3js.org/d3-geo-projection/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/d3/d3-geo-projection/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/d3/d3-geo-projection.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/parse-svg-path@0.1.2",
+      "name": "parse-svg-path",
+      "version": "0.1.2",
+      "description": "svg path parser",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7a7ec0d1eb06fa5325c7d3e009b859a09b5d49eb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/parse-svg-path@0.1.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/jkroso/parse-svg-path#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/jkroso/parse-svg-path/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/jkroso/parse-svg-path.git"
         }
       ]
     },
@@ -4928,41 +4998,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/d3-geo-projection@2.9.0",
-      "name": "d3-geo-projection",
-      "version": "2.9.0",
-      "description": "Extended geographic projections for d3-geo.",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "6542ef2bfcc19fcee87f9ad601f14c73d9893a2a5e4a8e7b3be0418adb0a217994e2b4d50275f5912b09904d11f93c58f2918da0cd676f245113b1981e174e11"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause"
-          }
-        }
-      ],
-      "purl": "pkg:npm/d3-geo-projection@2.9.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://d3js.org/d3-geo-projection/"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/d3/d3-geo-projection/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/d3/d3-geo-projection.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/d3-color@1.4.1",
       "name": "d3-color",
       "version": "1.4.1",
@@ -5028,41 +5063,6 @@
         {
           "type": "vcs",
           "url": "git+ssh://git@github.com/colorjs/color-space.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/parse-svg-path@0.1.2",
-      "name": "parse-svg-path",
-      "version": "0.1.2",
-      "description": "svg path parser",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "7a7ec0d1eb06fa5325c7d3e009b859a09b5d49eb"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/parse-svg-path@0.1.2",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/jkroso/parse-svg-path#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/jkroso/parse-svg-path/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/jkroso/parse-svg-path.git"
         }
       ]
     },
@@ -5278,36 +5278,36 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/d3-time@1.1.0",
-      "name": "d3-time",
-      "version": "1.1.0",
-      "description": "A calculator for humanity’s peculiar conventions of time.",
+      "bom-ref": "pkg:npm/get-canvas-context@1.0.2",
+      "name": "get-canvas-context",
+      "version": "1.0.2",
+      "description": "gets canvas context by name",
       "hashes": [
         {
-          "alg": "SHA-512",
-          "content": "5e1d22b2b679acf61876a840564f152e730489d873e5a3fb86d0000c7e8c7f38269a270f913a3c2e190bc5c8bad7f94207b9fb5261376cdd25791b7eaaf90bc4"
+          "alg": "SHA-1",
+          "content": "d6e7b50bc4e4c86357cd39f22647a84b73601e93"
         }
       ],
       "licenses": [
         {
           "license": {
-            "id": "BSD-3-Clause"
+            "id": "MIT"
           }
         }
       ],
-      "purl": "pkg:npm/d3-time@1.1.0",
+      "purl": "pkg:npm/get-canvas-context@1.0.2",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://d3js.org/d3-time/"
+          "url": "https://github.com/Jam3/get-canvas-context"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/d3/d3-time/issues"
+          "url": "https://github.com/Jam3/get-canvas-context/issues"
         },
         {
           "type": "vcs",
-          "url": "git+https://github.com/d3/d3-time.git"
+          "url": "git://github.com/Jam3/get-canvas-context.git"
         }
       ]
     },
@@ -5348,14 +5348,14 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/get-canvas-context@1.0.2",
-      "name": "get-canvas-context",
-      "version": "1.0.2",
-      "description": "gets canvas context by name",
+      "bom-ref": "pkg:npm/performance-now@2.1.0",
+      "name": "performance-now",
+      "version": "2.1.0",
+      "description": "Implements performance.now (based on process.hrtime).",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "d6e7b50bc4e4c86357cd39f22647a84b73601e93"
+          "content": "6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
         }
       ],
       "licenses": [
@@ -5365,19 +5365,19 @@
           }
         }
       ],
-      "purl": "pkg:npm/get-canvas-context@1.0.2",
+      "purl": "pkg:npm/performance-now@2.1.0",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/Jam3/get-canvas-context"
+          "url": "https://github.com/braveg1rl/performance-now"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/Jam3/get-canvas-context/issues"
+          "url": "https://github.com/braveg1rl/performance-now/issues"
         },
         {
           "type": "vcs",
-          "url": "git://github.com/Jam3/get-canvas-context.git"
+          "url": "git://github.com/braveg1rl/performance-now.git"
         }
       ]
     },
@@ -5488,36 +5488,36 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/performance-now@2.1.0",
-      "name": "performance-now",
-      "version": "2.1.0",
-      "description": "Implements performance.now (based on process.hrtime).",
+      "bom-ref": "pkg:npm/d3-time@1.1.0",
+      "name": "d3-time",
+      "version": "1.1.0",
+      "description": "A calculator for humanity’s peculiar conventions of time.",
       "hashes": [
         {
-          "alg": "SHA-1",
-          "content": "6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
+          "alg": "SHA-512",
+          "content": "5e1d22b2b679acf61876a840564f152e730489d873e5a3fb86d0000c7e8c7f38269a270f913a3c2e190bc5c8bad7f94207b9fb5261376cdd25791b7eaaf90bc4"
         }
       ],
       "licenses": [
         {
           "license": {
-            "id": "MIT"
+            "id": "BSD-3-Clause"
           }
         }
       ],
-      "purl": "pkg:npm/performance-now@2.1.0",
+      "purl": "pkg:npm/d3-time@1.1.0",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/braveg1rl/performance-now"
+          "url": "https://d3js.org/d3-time/"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/braveg1rl/performance-now/issues"
+          "url": "https://github.com/d3/d3-time/issues"
         },
         {
           "type": "vcs",
-          "url": "git://github.com/braveg1rl/performance-now.git"
+          "url": "git+https://github.com/d3/d3-time.git"
         }
       ]
     },
@@ -5698,6 +5698,41 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:npm/math-log2@1.0.1",
+      "name": "math-log2",
+      "version": "1.0.1",
+      "description": "ES2015 Math.log2() ponyfill",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fb8941be5f5ebe8979e718e6273b178e58694565"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/math-log2@1.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/sindresorhus/math-log2#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/sindresorhus/math-log2/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/sindresorhus/math-log2.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:npm/%40turf/meta@6.5.0",
       "group": "@turf",
       "name": "meta",
@@ -5770,41 +5805,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/math-log2@1.0.1",
-      "name": "math-log2",
-      "version": "1.0.1",
-      "description": "ES2015 Math.log2() ponyfill",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "fb8941be5f5ebe8979e718e6273b178e58694565"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/math-log2@1.0.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/sindresorhus/math-log2#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/sindresorhus/math-log2/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/sindresorhus/math-log2.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/dup@1.0.0",
       "name": "dup",
       "version": "1.0.0",
@@ -5835,76 +5835,6 @@
         {
           "type": "vcs",
           "url": "git://github.com/mikolalysenko/dup.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/es6-iterator@2.0.3",
-      "name": "es6-iterator",
-      "version": "2.0.3",
-      "description": "Iterator abstraction based on ES6 specification",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "a7de889141a05a94b0854403b2d0a0fbfa98f3b7"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/es6-iterator@2.0.3",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/medikoo/es6-iterator#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/medikoo/es6-iterator/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/medikoo/es6-iterator.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/es5-ext@0.10.53",
-      "name": "es5-ext",
-      "version": "0.10.53",
-      "description": "ECMAScript extensions and shims",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "5ecd92b70e8d88d1d6ca9cd14d8d4cb5a1bfb899700a4f241fcd7ddb499af26bcdf17ab582c7e166fa642262d002bc3c0079eff0c4f6238e49ddcd11f2c944f9"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "ISC"
-          }
-        }
-      ],
-      "purl": "pkg:npm/es5-ext@0.10.53",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/medikoo/es5-ext#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/medikoo/es5-ext/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/medikoo/es5-ext.git"
         }
       ]
     },
@@ -6015,6 +5945,181 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:npm/d3-collection@1.0.7",
+      "name": "d3-collection",
+      "version": "1.0.7",
+      "description": "Handy data structures for elements keyed by string.",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8a2d3faf97f8b2328d4df87ce038be0e9ced630a8a844c9494aa0faf35057de4a45b18d6e3dc54d90ccef6aacfacd929748d172647f3be64eef15d99ca5967e8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/d3-collection@1.0.7",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://d3js.org/d3-collection/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/d3/d3-collection/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/d3/d3-collection.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/es6-iterator@2.0.3",
+      "name": "es6-iterator",
+      "version": "2.0.3",
+      "description": "Iterator abstraction based on ES6 specification",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a7de889141a05a94b0854403b2d0a0fbfa98f3b7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/es6-iterator@2.0.3",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/medikoo/es6-iterator#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/medikoo/es6-iterator/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/medikoo/es6-iterator.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/es5-ext@0.10.53",
+      "name": "es5-ext",
+      "version": "0.10.53",
+      "description": "ECMAScript extensions and shims",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5ecd92b70e8d88d1d6ca9cd14d8d4cb5a1bfb899700a4f241fcd7ddb499af26bcdf17ab582c7e166fa642262d002bc3c0079eff0c4f6238e49ddcd11f2c944f9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/es5-ext@0.10.53",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/medikoo/es5-ext#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/medikoo/es5-ext/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/medikoo/es5-ext.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/mouse-event@1.0.5",
+      "name": "mouse-event",
+      "version": "1.0.5",
+      "description": "Cross browser mouse event property access",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b3789edb7109997d5a932d1d01daa1543a501732"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/mouse-event@1.0.5",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/mikolalysenko/mouse-event"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mikolalysenko/mouse-event/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/mikolalysenko/mouse-event.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/normalize-svg-path@1.1.0",
+      "name": "normalize-svg-path",
+      "version": "1.1.0",
+      "description": "Convert all segments in a path to curves",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "afd287286d9451e0792e84e8bb00f3072d95c57947b2233a7f22d0be725ad12e61ae1cea1251ff087ed3506853d5f56f21804829fdcea58e1827808afa26aa1e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/normalize-svg-path@1.1.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/jkroso/normalize-svg-path#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/jkroso/normalize-svg-path/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/jkroso/normalize-svg-path.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:npm/d@1.0.1",
       "name": "d",
       "version": "1.0.1",
@@ -6085,41 +6190,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/normalize-svg-path@1.1.0",
-      "name": "normalize-svg-path",
-      "version": "1.1.0",
-      "description": "Convert all segments in a path to curves",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "afd287286d9451e0792e84e8bb00f3072d95c57947b2233a7f22d0be725ad12e61ae1cea1251ff087ed3506853d5f56f21804829fdcea58e1827808afa26aa1e"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/normalize-svg-path@1.1.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/jkroso/normalize-svg-path#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/jkroso/normalize-svg-path/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/jkroso/normalize-svg-path.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/abs-svg-path@0.1.1",
       "name": "abs-svg-path",
       "version": "0.1.1",
@@ -6185,41 +6255,6 @@
         {
           "type": "vcs",
           "url": "git://github.com/jkroso/normalize-svg-path.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/d3-collection@1.0.7",
-      "name": "d3-collection",
-      "version": "1.0.7",
-      "description": "Handy data structures for elements keyed by string.",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "8a2d3faf97f8b2328d4df87ce038be0e9ced630a8a844c9494aa0faf35057de4a45b18d6e3dc54d90ccef6aacfacd929748d172647f3be64eef15d99ca5967e8"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause"
-          }
-        }
-      ],
-      "purl": "pkg:npm/d3-collection@1.0.7",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://d3js.org/d3-collection/"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/d3/d3-collection/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/d3/d3-collection.git"
         }
       ]
     },
@@ -6470,41 +6505,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/mouse-event@1.0.5",
-      "name": "mouse-event",
-      "version": "1.0.5",
-      "description": "Cross browser mouse event property access",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "b3789edb7109997d5a932d1d01daa1543a501732"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/mouse-event@1.0.5",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/mikolalysenko/mouse-event"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/mikolalysenko/mouse-event/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/mikolalysenko/mouse-event.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/color-name@1.1.3",
       "name": "color-name",
       "version": "1.1.3",
@@ -6535,76 +6535,6 @@
         {
           "type": "vcs",
           "url": "git+ssh://git@github.com/dfcreative/color-name.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/stream-parser@0.3.1",
-      "name": "stream-parser",
-      "version": "0.3.1",
-      "description": "Generic interruptible \"parser\" mixin for Transform & Writable streams",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "1618548694420021a1182ff0af1911c129761773"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/stream-parser@0.3.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/TooTallNate/node-stream-parser#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/TooTallNate/node-stream-parser/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/TooTallNate/node-stream-parser.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/type@1.2.0",
-      "name": "type",
-      "version": "1.2.0",
-      "description": "Runtime validation and processing of JavaScript types",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "fb99ede400278aab029eed9c11041da73080877de4571f27d15a0589d2a907575554b00dfc5f9b8153aa389a8e9c49eb869db6d9c941e69def5250fed500277e"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "ISC"
-          }
-        }
-      ],
-      "purl": "pkg:npm/type@1.2.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/medikoo/type#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/medikoo/type/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/medikoo/type.git"
         }
       ]
     },
@@ -6645,6 +6575,41 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:npm/stream-parser@0.3.1",
+      "name": "stream-parser",
+      "version": "0.3.1",
+      "description": "Generic interruptible \"parser\" mixin for Transform & Writable streams",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1618548694420021a1182ff0af1911c129761773"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/stream-parser@0.3.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/TooTallNate/node-stream-parser#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/TooTallNate/node-stream-parser/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/TooTallNate/node-stream-parser.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:npm/d3-path@1.0.9",
       "name": "d3-path",
       "version": "1.0.9",
@@ -6680,14 +6645,14 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/ext@1.6.0",
-      "name": "ext",
-      "version": "1.6.0",
-      "description": "JavaScript utilities with respect to emerging standard",
+      "bom-ref": "pkg:npm/type@1.2.0",
+      "name": "type",
+      "version": "1.2.0",
+      "description": "Runtime validation and processing of JavaScript types",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "b1d0489adce4ab61e991d44bb652d60daeb0e035f6da28d92cac7c04c3d4b8a7b573995b37ac70403402c527f10509c7675de5b3f147d0c419c7fabf82be8542"
+          "content": "fb99ede400278aab029eed9c11041da73080877de4571f27d15a0589d2a907575554b00dfc5f9b8153aa389a8e9c49eb869db6d9c941e69def5250fed500277e"
         }
       ],
       "licenses": [
@@ -6697,19 +6662,19 @@
           }
         }
       ],
-      "purl": "pkg:npm/ext@1.6.0",
+      "purl": "pkg:npm/type@1.2.0",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/medikoo/es5-ext/tree/ext#readme"
+          "url": "https://github.com/medikoo/type#readme"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/medikoo/es5-ext/issues"
+          "url": "https://github.com/medikoo/type/issues"
         },
         {
           "type": "vcs",
-          "url": "git+https://github.com/medikoo/es5-ext.git#ext"
+          "url": "git+https://github.com/medikoo/type.git"
         }
       ]
     },
@@ -6780,6 +6745,41 @@
         {
           "type": "vcs",
           "url": "git://github.com/browserify/stream-browserify.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/ext@1.6.0",
+      "name": "ext",
+      "version": "1.6.0",
+      "description": "JavaScript utilities with respect to emerging standard",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b1d0489adce4ab61e991d44bb652d60daeb0e035f6da28d92cac7c04c3d4b8a7b573995b37ac70403402c527f10509c7675de5b3f147d0c419c7fabf82be8542"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/ext@1.6.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/medikoo/es5-ext/tree/ext#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/medikoo/es5-ext/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/medikoo/es5-ext.git#ext"
         }
       ]
     },
@@ -7208,6 +7208,12 @@
       "ref": "pkg:npm/available-typed-arrays@1.0.5"
     },
     {
+      "ref": "pkg:npm/jszip@3.7.1",
+      "dependsOn": [
+        "pkg:npm/buffer@6.0.3"
+      ]
+    },
+    {
       "ref": "pkg:npm/has-symbols@1.0.2"
     },
     {
@@ -7219,15 +7225,6 @@
         "pkg:npm/has-symbols@1.0.2",
         "pkg:npm/has@1.0.3"
       ]
-    },
-    {
-      "ref": "pkg:npm/jszip@3.7.1",
-      "dependsOn": [
-        "pkg:npm/buffer@6.0.3"
-      ]
-    },
-    {
-      "ref": "pkg:npm/function-bind@1.1.1"
     },
     {
       "ref": "pkg:npm/plotly.js@2.8.3",
@@ -7259,14 +7256,17 @@
         "pkg:npm/color-rgba@2.1.1",
         "pkg:npm/regl@2.1.0",
         "pkg:npm/polybooljs@1.2.0",
+        "pkg:npm/webgl-context@2.2.0",
         "pkg:npm/%40turf/area@6.5.0",
         "pkg:npm/%40turf/centroid@6.5.0",
         "pkg:npm/%40turf/bbox@6.5.0",
-        "pkg:npm/webgl-context@2.2.0",
         "pkg:npm/parse-svg-path@0.1.2",
         "pkg:npm/mouse-change@1.4.0",
         "pkg:npm/mouse-wheel@1.2.0"
       ]
+    },
+    {
+      "ref": "pkg:npm/function-bind@1.1.1"
     },
     {
       "ref": "pkg:npm/buffer@6.0.3",
@@ -7504,19 +7504,19 @@
       "ref": "pkg:npm/mapbox-gl@1.10.1"
     },
     {
-      "ref": "pkg:npm/d3-time-format@2.3.0"
+      "ref": "pkg:npm/world-calendars@1.0.3"
     },
     {
-      "ref": "pkg:npm/world-calendars@1.0.3"
+      "ref": "pkg:npm/d3-time-format@2.3.0"
     },
     {
       "ref": "pkg:npm/d3-format@1.4.5"
     },
     {
-      "ref": "pkg:npm/gl-mat4@1.2.0"
+      "ref": "pkg:npm/robust-predicates@3.0.1"
     },
     {
-      "ref": "pkg:npm/robust-predicates@3.0.1"
+      "ref": "pkg:npm/gl-mat4@1.2.0"
     },
     {
       "ref": "pkg:npm/has-hover@1.0.1",
@@ -7531,9 +7531,6 @@
       "ref": "pkg:npm/is-string-blank@1.0.1"
     },
     {
-      "ref": "pkg:npm/buffer@5.7.1"
-    },
-    {
       "ref": "pkg:npm/d3-hierarchy@1.1.9"
     },
     {
@@ -7541,6 +7538,9 @@
       "dependsOn": [
         "pkg:npm/d3-color@1.4.1"
       ]
+    },
+    {
+      "ref": "pkg:npm/buffer@5.7.1"
     },
     {
       "ref": "pkg:npm/probe-image-size@7.2.2",
@@ -7585,13 +7585,13 @@
       ]
     },
     {
+      "ref": "pkg:npm/gl-util@3.1.3"
+    },
+    {
       "ref": "pkg:npm/regl@2.1.0"
     },
     {
       "ref": "pkg:npm/polybooljs@1.2.0"
-    },
-    {
-      "ref": "pkg:npm/gl-util@3.1.3"
     },
     {
       "ref": "pkg:npm/array-bounds@1.0.1"
@@ -7621,6 +7621,12 @@
       "ref": "pkg:npm/array-normalize@1.1.4"
     },
     {
+      "ref": "pkg:npm/webgl-context@2.2.0",
+      "dependsOn": [
+        "pkg:npm/get-canvas-context@1.0.2"
+      ]
+    },
+    {
       "ref": "pkg:npm/raf@3.4.1",
       "dependsOn": [
         "pkg:npm/performance-now@2.1.0"
@@ -7628,9 +7634,6 @@
     },
     {
       "ref": "pkg:npm/array-range@1.0.1"
-    },
-    {
-      "ref": "pkg:npm/earcut@2.2.3"
     },
     {
       "ref": "pkg:npm/%40turf/area@6.5.0",
@@ -7646,6 +7649,9 @@
     },
     {
       "ref": "pkg:npm/%40turf/bbox@6.5.0"
+    },
+    {
+      "ref": "pkg:npm/earcut@2.2.3"
     },
     {
       "ref": "pkg:npm/object-assign@4.1.1"
@@ -7664,12 +7670,6 @@
     },
     {
       "ref": "pkg:npm/array-find-index@1.0.2"
-    },
-    {
-      "ref": "pkg:npm/webgl-context@2.2.0",
-      "dependsOn": [
-        "pkg:npm/get-canvas-context@1.0.2"
-      ]
     },
     {
       "ref": "pkg:npm/is-plain-obj@1.1.0"
@@ -7712,13 +7712,13 @@
       "ref": "pkg:npm/bit-twiddle@1.0.2"
     },
     {
-      "ref": "pkg:npm/topojson-client@3.1.0"
-    },
-    {
       "ref": "pkg:npm/d3-geo@1.12.1",
       "dependsOn": [
         "pkg:npm/d3-array@1.2.4"
       ]
+    },
+    {
+      "ref": "pkg:npm/topojson-client@3.1.0"
     },
     {
       "ref": "pkg:npm/d3-force@1.2.1",
@@ -7727,6 +7727,16 @@
         "pkg:npm/d3-dispatch@1.0.6",
         "pkg:npm/d3-timer@1.0.10"
       ]
+    },
+    {
+      "ref": "pkg:npm/d3-geo-projection@2.9.0",
+      "dependsOn": [
+        "pkg:npm/d3-geo@1.12.1",
+        "pkg:npm/d3-array@1.2.4"
+      ]
+    },
+    {
+      "ref": "pkg:npm/parse-svg-path@0.1.2"
     },
     {
       "ref": "pkg:npm/is-browser@2.1.0"
@@ -7739,20 +7749,10 @@
       ]
     },
     {
-      "ref": "pkg:npm/d3-geo-projection@2.9.0",
-      "dependsOn": [
-        "pkg:npm/d3-geo@1.12.1",
-        "pkg:npm/d3-array@1.2.4"
-      ]
-    },
-    {
       "ref": "pkg:npm/d3-color@1.4.1"
     },
     {
       "ref": "pkg:npm/color-space@1.16.0"
-    },
-    {
-      "ref": "pkg:npm/parse-svg-path@0.1.2"
     },
     {
       "ref": "pkg:npm/clamp@1.0.1"
@@ -7784,13 +7784,13 @@
       ]
     },
     {
-      "ref": "pkg:npm/d3-time@1.1.0"
+      "ref": "pkg:npm/get-canvas-context@1.0.2"
     },
     {
       "ref": "pkg:npm/dtype@2.0.0"
     },
     {
-      "ref": "pkg:npm/get-canvas-context@1.0.2"
+      "ref": "pkg:npm/performance-now@2.1.0"
     },
     {
       "ref": "pkg:npm/mouse-change@1.4.0",
@@ -7805,7 +7805,7 @@
       "ref": "pkg:npm/is-obj@1.0.1"
     },
     {
-      "ref": "pkg:npm/performance-now@2.1.0"
+      "ref": "pkg:npm/d3-time@1.1.0"
     },
     {
       "ref": "pkg:npm/%40plotly/d3-sankey-circular@0.33.1",
@@ -7834,16 +7834,28 @@
       "ref": "pkg:npm/elementary-circuits-directed-graph@1.3.1"
     },
     {
+      "ref": "pkg:npm/math-log2@1.0.1"
+    },
+    {
       "ref": "pkg:npm/%40turf/meta@6.5.0"
     },
     {
       "ref": "pkg:npm/%40turf/helpers@6.5.0"
     },
     {
-      "ref": "pkg:npm/math-log2@1.0.1"
+      "ref": "pkg:npm/dup@1.0.0"
     },
     {
-      "ref": "pkg:npm/dup@1.0.0"
+      "ref": "pkg:npm/d3-quadtree@1.0.7"
+    },
+    {
+      "ref": "pkg:npm/d3-dispatch@1.0.6"
+    },
+    {
+      "ref": "pkg:npm/d3-timer@1.0.10"
+    },
+    {
+      "ref": "pkg:npm/d3-collection@1.0.7"
     },
     {
       "ref": "pkg:npm/es6-iterator@2.0.3",
@@ -7856,13 +7868,13 @@
       "ref": "pkg:npm/es5-ext@0.10.53"
     },
     {
-      "ref": "pkg:npm/d3-quadtree@1.0.7"
+      "ref": "pkg:npm/mouse-event@1.0.5"
     },
     {
-      "ref": "pkg:npm/d3-dispatch@1.0.6"
-    },
-    {
-      "ref": "pkg:npm/d3-timer@1.0.10"
+      "ref": "pkg:npm/normalize-svg-path@1.1.0",
+      "dependsOn": [
+        "pkg:npm/svg-arc-to-cubic-bezier@3.2.0"
+      ]
     },
     {
       "ref": "pkg:npm/d@1.0.1",
@@ -7878,19 +7890,10 @@
       ]
     },
     {
-      "ref": "pkg:npm/normalize-svg-path@1.1.0",
-      "dependsOn": [
-        "pkg:npm/svg-arc-to-cubic-bezier@3.2.0"
-      ]
-    },
-    {
       "ref": "pkg:npm/abs-svg-path@0.1.1"
     },
     {
       "ref": "pkg:npm/normalize-svg-path@0.1.0"
-    },
-    {
-      "ref": "pkg:npm/d3-collection@1.0.7"
     },
     {
       "ref": "pkg:npm/unquote@1.1.1"
@@ -7917,10 +7920,10 @@
       ]
     },
     {
-      "ref": "pkg:npm/mouse-event@1.0.5"
+      "ref": "pkg:npm/color-name@1.1.3"
     },
     {
-      "ref": "pkg:npm/color-name@1.1.3"
+      "ref": "pkg:npm/css-font-size-keywords@1.0.0"
     },
     {
       "ref": "pkg:npm/stream-parser@0.3.1",
@@ -7929,16 +7932,10 @@
       ]
     },
     {
-      "ref": "pkg:npm/type@1.2.0"
-    },
-    {
-      "ref": "pkg:npm/css-font-size-keywords@1.0.0"
-    },
-    {
       "ref": "pkg:npm/d3-path@1.0.9"
     },
     {
-      "ref": "pkg:npm/ext@1.6.0"
+      "ref": "pkg:npm/type@1.2.0"
     },
     {
       "ref": "pkg:npm/parenthesis@3.1.8"
@@ -7948,6 +7945,9 @@
       "dependsOn": [
         "pkg:npm/readable-stream@3.6.0"
       ]
+    },
+    {
+      "ref": "pkg:npm/ext@1.6.0"
     },
     {
       "ref": "pkg:npm/svg-arc-to-cubic-bezier@3.2.0"
