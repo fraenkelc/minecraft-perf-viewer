@@ -57,7 +57,7 @@ jobs:
                     ref: branch
                   });
                   for (const check of checks) {
-                    if (!['skipped', 'success'].contains(check.conclusion)) {
+                    if (!['skipped', 'success'].includes(check.conclusion)) {
                       console.log('Discarding ' + branch + ' with check '+ check.name +' conclusion ' + check.conclusion);
                       statusOK = false;
                     }
