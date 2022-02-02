@@ -20,11 +20,11 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.12.4",
-    "core-js": "^3.20.3",
+    "core-js": "^3.21.0",
     "d3": "^7.3.0",
     "jszip": "^3.7.1",
     "plotly.js": "^2.8.3",
-    "quasar": "^2.4.13",
+    "quasar": "^2.5.1",
     "vuex": "^4.0.1"
   },
   "devDependencies": {
@@ -34,9 +34,9 @@
     "@quasar/quasar-app-extension-testing": "^2.0.2",
     "@quasar/quasar-app-extension-testing-unit-jest": "^3.0.0-alpha.8",
     "@types/d3": "^7.1.0",
-    "@types/node": "^17.0.13",
+    "@types/node": "^17.0.14",
     "@types/plotly.js": "^1.54.20",
-    "@types/resize-observer-browser": "^0.1.6",
+    "@types/resize-observer-browser": "^0.1.7",
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.16.1",
     "eslint": "^7.14.0",
