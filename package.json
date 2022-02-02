@@ -24,7 +24,7 @@
     "d3": "^7.3.0",
     "jszip": "^3.7.1",
     "plotly.js": "^2.8.3",
-    "quasar": "^2.4.13",
+    "quasar": "^2.5.1",
     "vuex": "^4.0.1"
   },
   "devDependencies": {
