@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.3",
-  "serialNumber": "urn:uuid:fee6b2f8-be25-413e-90ae-43a240c761e4",
+  "serialNumber": "urn:uuid:98e4a507-b76d-4e73-a985-44611d5569c1",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-02-17T17:04:34.362Z",
+    "timestamp": "2022-02-17T17:04:35.384Z",
     "tools": [
       {
         "vendor": "CycloneDX",
@@ -31,14 +31,14 @@
   "components": [
     {
       "type": "library",
-      "bom-ref": "pkg:npm/core-js@3.21.1",
+      "bom-ref": "pkg:npm/core-js@3.21.0",
       "name": "core-js",
-      "version": "3.21.1",
+      "version": "3.21.0",
       "description": "Standard library",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "151ab96ff54cad696b982cf046ba4360dc721cff41700642fb11c96aa4e0204e74f75655d4d4e6ca1d2c18e8395eaa671ef474b2f772d2cbf5816035ce68718a"
+          "content": "614748ddf16ee1317fd96ca4436c734a24d076574b078295b8bf56780cb95ce35962de42ba7fdfa50bdcb6829b0a0bcf866cc00de7ac4e4fe3d91771efb01c29"
         }
       ],
       "licenses": [
@@ -48,7 +48,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/core-js@3.21.1",
+      "purl": "pkg:npm/core-js@3.21.0",
       "externalReferences": [
         {
           "type": "website",
@@ -615,41 +615,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/is-arguments@1.1.1",
-      "name": "is-arguments",
-      "version": "1.1.1",
-      "description": "Is this an arguments object? It's a harder question than you think.",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "f10ec40118f31272a9b7f3c20fb7b5720512d1ae97f2ee6d75288ca978688ce76857d4ec32c88efbd54b0b9bc098ef0deff1a65e7ef28d1f2a9c0e9b5401337c"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/is-arguments@1.1.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/inspect-js/is-arguments"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/inspect-js/is-arguments/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/inspect-js/is-arguments.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/is-generator-function@1.0.10",
       "name": "is-generator-function",
       "version": "1.0.10",
@@ -685,14 +650,14 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/which-typed-array@1.1.7",
-      "name": "which-typed-array",
-      "version": "1.1.7",
-      "description": "Which kind of Typed Array is this JavaScript value? Works cross-realm, without `instanceof`, and despite Symbol.toStringTag.",
+      "bom-ref": "pkg:npm/is-arguments@1.1.1",
+      "name": "is-arguments",
+      "version": "1.1.1",
+      "description": "Is this an arguments object? It's a harder question than you think.",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "be3c5a0789df0eac0a234c2cef0669c4895d7b55eb2d7e6e074663a5fb218266a924c0fb8c95a1648fb24e8253a9a141c85d1e341718c5b8e60b3a113fb09f13"
+          "content": "f10ec40118f31272a9b7f3c20fb7b5720512d1ae97f2ee6d75288ca978688ce76857d4ec32c88efbd54b0b9bc098ef0deff1a65e7ef28d1f2a9c0e9b5401337c"
         }
       ],
       "licenses": [
@@ -702,19 +667,19 @@
           }
         }
       ],
-      "purl": "pkg:npm/which-typed-array@1.1.7",
+      "purl": "pkg:npm/is-arguments@1.1.1",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/inspect-js/which-typed-array#readme"
+          "url": "https://github.com/inspect-js/is-arguments"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/inspect-js/which-typed-array/issues"
+          "url": "https://github.com/inspect-js/is-arguments/issues"
         },
         {
           "type": "vcs",
-          "url": "git://github.com/inspect-js/which-typed-array.git"
+          "url": "git://github.com/inspect-js/is-arguments.git"
         }
       ]
     },
@@ -750,6 +715,41 @@
         {
           "type": "vcs",
           "url": "git://github.com/inspect-js/is-typed-array.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/which-typed-array@1.1.7",
+      "name": "which-typed-array",
+      "version": "1.1.7",
+      "description": "Which kind of Typed Array is this JavaScript value? Works cross-realm, without `instanceof`, and despite Symbol.toStringTag.",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "be3c5a0789df0eac0a234c2cef0669c4895d7b55eb2d7e6e074663a5fb218266a924c0fb8c95a1648fb24e8253a9a141c85d1e341718c5b8e60b3a113fb09f13"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/which-typed-array@1.1.7",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/inspect-js/which-typed-array#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/inspect-js/which-typed-array/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/inspect-js/which-typed-array.git"
         }
       ]
     },
@@ -931,41 +931,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/es-abstract@1.19.1",
-      "name": "es-abstract",
-      "version": "1.19.1",
-      "description": "ECMAScript spec abstract operations.",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "daf27ab6303f51fa8b9b630fb3b8f15726cba01f22d6dd4977d4779084a5776d2c2313dc4db2ee82040e531796780bc852476ebff09f323ba1e169a25ebdaff7"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/es-abstract@1.19.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/ljharb/es-abstract#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/ljharb/es-abstract/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/ljharb/es-abstract.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/%40vue/reactivity@3.2.27",
       "group": "@vue",
       "name": "reactivity",
@@ -997,6 +962,41 @@
         {
           "type": "vcs",
           "url": "git+https://github.com/vuejs/vue-next.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/es-abstract@1.19.1",
+      "name": "es-abstract",
+      "version": "1.19.1",
+      "description": "ECMAScript spec abstract operations.",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "daf27ab6303f51fa8b9b630fb3b8f15726cba01f22d6dd4977d4779084a5776d2c2313dc4db2ee82040e531796780bc852476ebff09f323ba1e169a25ebdaff7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/es-abstract@1.19.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/ljharb/es-abstract#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ljharb/es-abstract/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/ljharb/es-abstract.git"
         }
       ]
     },
@@ -2718,41 +2718,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/regl-line2d@3.1.2",
-      "name": "regl-line2d",
-      "version": "3.1.2",
-      "description": "Draw polyline with regl",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "9e64fb5964bf5b199701032481a30a5976959b027ae4a0ab8dba8718e5238ea422eac85f4fde986c13af7a55f03bd846eff863bdbce3b50d943b42f77bb61a5d"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/regl-line2d@3.1.2",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/dy/regl-line2d#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/dy/regl-line2d/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/dy/regl-line2d.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/regl-error2d@2.0.12",
       "name": "regl-error2d",
       "version": "2.0.12",
@@ -2889,6 +2854,41 @@
         {
           "type": "vcs",
           "url": "git+https://github.com/gl-vis/regl-splom.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/regl-line2d@3.1.2",
+      "name": "regl-line2d",
+      "version": "3.1.2",
+      "description": "Draw polyline with regl",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9e64fb5964bf5b199701032481a30a5976959b027ae4a0ab8dba8718e5238ea422eac85f4fde986c13af7a55f03bd846eff863bdbce3b50d943b42f77bb61a5d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/regl-line2d@3.1.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/dy/regl-line2d#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/dy/regl-line2d/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/dy/regl-line2d.git"
         }
       ]
     },
@@ -3139,6 +3139,41 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:npm/is-string-blank@1.0.1",
+      "name": "is-string-blank",
+      "version": "1.0.1",
+      "description": "The fast way to check if a string is blank",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f47f9904256cdcbf4e62abfc9ee500ce9713f4e4e0303d72016ac6ee28659e26dd91bb41f39d217809985b11ee5dce021f2e2529e2baf6d37e9f2d4aee0048af"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/is-string-blank@1.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/plotly/is-string-blank#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/plotly/is-string-blank/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/plotly/is-string-blank.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:npm/has-hover@1.0.1",
       "name": "has-hover",
       "version": "1.0.1",
@@ -3209,76 +3244,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/is-string-blank@1.0.1",
-      "name": "is-string-blank",
-      "version": "1.0.1",
-      "description": "The fast way to check if a string is blank",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "f47f9904256cdcbf4e62abfc9ee500ce9713f4e4e0303d72016ac6ee28659e26dd91bb41f39d217809985b11ee5dce021f2e2529e2baf6d37e9f2d4aee0048af"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/is-string-blank@1.0.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/plotly/is-string-blank#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/plotly/is-string-blank/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/plotly/is-string-blank.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/buffer@5.7.1",
-      "name": "buffer",
-      "version": "5.7.1",
-      "description": "Node.js Buffer API, for the browser",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "10773220f050e0148696f8c1d7a9392a0009dbb088b0763fd8906609145ea38f32f6b43731a533597dca56505ae14eccc97d361dd563d0aec2dd6681de3bbb15"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/buffer@5.7.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/feross/buffer"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/feross/buffer/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/feross/buffer.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/d3-hierarchy@1.1.9",
       "name": "d3-hierarchy",
       "version": "1.1.9",
@@ -3344,6 +3309,41 @@
         {
           "type": "vcs",
           "url": "git+https://github.com/d3/d3-interpolate.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/buffer@5.7.1",
+      "name": "buffer",
+      "version": "5.7.1",
+      "description": "Node.js Buffer API, for the browser",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "10773220f050e0148696f8c1d7a9392a0009dbb088b0763fd8906609145ea38f32f6b43731a533597dca56505ae14eccc97d361dd563d0aec2dd6681de3bbb15"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/buffer@5.7.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/feross/buffer"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/feross/buffer/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/feross/buffer.git"
         }
       ]
     },
@@ -3589,6 +3589,41 @@
         {
           "type": "vcs",
           "url": "git+https://github.com/dy/svg-path-sdf.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/color-rgba@2.1.1",
+      "name": "color-rgba",
+      "version": "2.1.1",
+      "description": "Convert color string (or parseable argument) to RGBA array",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "55a5fdef0b2aaccc0b48e47a1fbad4d43a1adb3c957664a169b2ab3c4205cb02e51e889b803dd05bd0f0e9f4aa338f87fcb7e3a6b0cd014516df5a8441c1b337"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/color-rgba@2.1.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/colorjs/color-rgba#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/colorjs/color-rgba/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/colorjs/color-rgba.git"
         }
       ]
     },
@@ -3944,111 +3979,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/color-rgba@2.1.1",
-      "name": "color-rgba",
-      "version": "2.1.1",
-      "description": "Convert color string (or parseable argument) to RGBA array",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "55a5fdef0b2aaccc0b48e47a1fbad4d43a1adb3c957664a169b2ab3c4205cb02e51e889b803dd05bd0f0e9f4aa338f87fcb7e3a6b0cd014516df5a8441c1b337"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/color-rgba@2.1.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/colorjs/color-rgba#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/colorjs/color-rgba/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/colorjs/color-rgba.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/array-normalize@1.1.4",
-      "name": "array-normalize",
-      "version": "1.1.4",
-      "description": "Normalize array (possibly n-dimensional) to zero mean and unit variance",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "7c2a74c0a14b8ef48f9829f81794e2c38337969319a079428df72cee7373ba3defa90435fdaf1c801f435dca434a7d7c73e7282e7696eeba9f7180af29bc895e"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/array-normalize@1.1.4",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/dfcreative/array-normalize#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/dfcreative/array-normalize/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/dfcreative/array-normalize.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/polybooljs@1.2.0",
-      "name": "polybooljs",
-      "version": "1.2.0",
-      "description": "Boolean operations on polygons (union, intersection, difference, xor)",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "b4390c2e079d4c262d3b2504c6288d95ba7a4758"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/polybooljs@1.2.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/voidqk/polybooljs#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/voidqk/polybooljs/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/voidqk/polybooljs.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/raf@3.4.1",
       "name": "raf",
       "version": "3.4.1",
@@ -4114,6 +4044,41 @@
         {
           "type": "vcs",
           "url": "git://github.com/mattdesl/array-range.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/array-normalize@1.1.4",
+      "name": "array-normalize",
+      "version": "1.1.4",
+      "description": "Normalize array (possibly n-dimensional) to zero mean and unit variance",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7c2a74c0a14b8ef48f9829f81794e2c38337969319a079428df72cee7373ba3defa90435fdaf1c801f435dca434a7d7c73e7282e7696eeba9f7180af29bc895e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/array-normalize@1.1.4",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/dfcreative/array-normalize#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/dfcreative/array-normalize/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/dfcreative/array-normalize.git"
         }
       ]
     },
@@ -4222,6 +4187,41 @@
         {
           "type": "vcs",
           "url": "git://github.com/Turfjs/turf.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/polybooljs@1.2.0",
+      "name": "polybooljs",
+      "version": "1.2.0",
+      "description": "Boolean operations on polygons (union, intersection, difference, xor)",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b4390c2e079d4c262d3b2504c6288d95ba7a4758"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/polybooljs@1.2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/voidqk/polybooljs#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/voidqk/polybooljs/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/voidqk/polybooljs.git"
         }
       ]
     },
@@ -4822,41 +4822,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/d3-force@1.2.1",
-      "name": "d3-force",
-      "version": "1.2.1",
-      "description": "Force-directed graph layout using velocity Verlet integration.",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "1c7bde8726a2525568e42c41274c85ff19f2e31a1ac45c439c15cdbcd71f5bd69d3911997f2345d5d8fa0c62caca4e188776eb3ffd61deb9c3cdd200c0bd3cce"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause"
-          }
-        }
-      ],
-      "purl": "pkg:npm/d3-force@1.2.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://d3js.org/d3-force/"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/d3/d3-force/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/d3/d3-force.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/is-browser@2.1.0",
       "name": "is-browser",
       "version": "2.1.0",
@@ -4892,14 +4857,14 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/d3-geo-projection@2.9.0",
-      "name": "d3-geo-projection",
-      "version": "2.9.0",
-      "description": "Extended geographic projections for d3-geo.",
+      "bom-ref": "pkg:npm/d3-force@1.2.1",
+      "name": "d3-force",
+      "version": "1.2.1",
+      "description": "Force-directed graph layout using velocity Verlet integration.",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "6542ef2bfcc19fcee87f9ad601f14c73d9893a2a5e4a8e7b3be0418adb0a217994e2b4d50275f5912b09904d11f93c58f2918da0cd676f245113b1981e174e11"
+          "content": "1c7bde8726a2525568e42c41274c85ff19f2e31a1ac45c439c15cdbcd71f5bd69d3911997f2345d5d8fa0c62caca4e188776eb3ffd61deb9c3cdd200c0bd3cce"
         }
       ],
       "licenses": [
@@ -4909,19 +4874,89 @@
           }
         }
       ],
-      "purl": "pkg:npm/d3-geo-projection@2.9.0",
+      "purl": "pkg:npm/d3-force@1.2.1",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://d3js.org/d3-geo-projection/"
+          "url": "https://d3js.org/d3-force/"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/d3/d3-geo-projection/issues"
+          "url": "https://github.com/d3/d3-force/issues"
         },
         {
           "type": "vcs",
-          "url": "git+https://github.com/d3/d3-geo-projection.git"
+          "url": "git+https://github.com/d3/d3-force.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/d3-color@1.4.1",
+      "name": "d3-color",
+      "version": "1.4.1",
+      "description": "Color spaces! RGB, HSL, Cubehelix, Lab and HCL (Lch).",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a76b131d22c2248d902ae9db19bee870e87b0e04c09fc22b2f1db541173f0529e8757338b2fe9a2d09677e9bde84530b6447c173a83da47f5259071c1587c9f5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/d3-color@1.4.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://d3js.org/d3-color/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/d3/d3-color/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/d3/d3-color.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/color-space@1.16.0",
+      "name": "color-space",
+      "version": "1.16.0",
+      "description": "Color space conversions and data",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "03a58c885cee9d0f0a10f1668f4d8e9e7a149ea86649a1da67fd0b54570f4dd96f9bcfb768c279c751d11f2ddb0c73e4a2f91fe2c4b47f8c2c56fc24ef57ca92"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/color-space@1.16.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/colorjs/color-space#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/colorjs/color-space/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/colorjs/color-space.git"
         }
       ]
     },
@@ -4963,14 +4998,14 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/d3-color@1.4.1",
-      "name": "d3-color",
-      "version": "1.4.1",
-      "description": "Color spaces! RGB, HSL, Cubehelix, Lab and HCL (Lch).",
+      "bom-ref": "pkg:npm/d3-geo-projection@2.9.0",
+      "name": "d3-geo-projection",
+      "version": "2.9.0",
+      "description": "Extended geographic projections for d3-geo.",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "a76b131d22c2248d902ae9db19bee870e87b0e04c09fc22b2f1db541173f0529e8757338b2fe9a2d09677e9bde84530b6447c173a83da47f5259071c1587c9f5"
+          "content": "6542ef2bfcc19fcee87f9ad601f14c73d9893a2a5e4a8e7b3be0418adb0a217994e2b4d50275f5912b09904d11f93c58f2918da0cd676f245113b1981e174e11"
         }
       ],
       "licenses": [
@@ -4980,19 +5015,19 @@
           }
         }
       ],
-      "purl": "pkg:npm/d3-color@1.4.1",
+      "purl": "pkg:npm/d3-geo-projection@2.9.0",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://d3js.org/d3-color/"
+          "url": "https://d3js.org/d3-geo-projection/"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/d3/d3-color/issues"
+          "url": "https://github.com/d3/d3-geo-projection/issues"
         },
         {
           "type": "vcs",
-          "url": "git+https://github.com/d3/d3-color.git"
+          "url": "git+https://github.com/d3/d3-geo-projection.git"
         }
       ]
     },
@@ -5208,14 +5243,14 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/color-space@1.16.0",
-      "name": "color-space",
-      "version": "1.16.0",
-      "description": "Color space conversions and data",
+      "bom-ref": "pkg:npm/color-parse@1.3.8",
+      "name": "color-parse",
+      "version": "1.3.8",
+      "description": "Color string parser",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "03a58c885cee9d0f0a10f1668f4d8e9e7a149ea86649a1da67fd0b54570f4dd96f9bcfb768c279c751d11f2ddb0c73e4a2f91fe2c4b47f8c2c56fc24ef57ca92"
+          "content": "d58efda85bf49f5c5a8abde534c4cd7a816f99cde78ab3150628f6e336ecd5fd77fbb7cfa500a5320e5be00b8a5cbb77b338fb0519473025c7a6591c7ba5e598"
         }
       ],
       "licenses": [
@@ -5225,19 +5260,19 @@
           }
         }
       ],
-      "purl": "pkg:npm/color-space@1.16.0",
+      "purl": "pkg:npm/color-parse@1.3.8",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/colorjs/color-space#readme"
+          "url": "https://github.com/colorjs/color-parse"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/colorjs/color-space/issues"
+          "url": "https://github.com/colorjs/color-parse/issues"
         },
         {
           "type": "vcs",
-          "url": "git+ssh://git@github.com/colorjs/color-space.git"
+          "url": "git+https://github.com/colorjs/color-parse.git"
         }
       ]
     },
@@ -5278,71 +5313,36 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/color-parse@1.3.8",
-      "name": "color-parse",
-      "version": "1.3.8",
-      "description": "Color string parser",
+      "bom-ref": "pkg:npm/d3-time@1.1.0",
+      "name": "d3-time",
+      "version": "1.1.0",
+      "description": "A calculator for humanity’s peculiar conventions of time.",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "d58efda85bf49f5c5a8abde534c4cd7a816f99cde78ab3150628f6e336ecd5fd77fbb7cfa500a5320e5be00b8a5cbb77b338fb0519473025c7a6591c7ba5e598"
+          "content": "5e1d22b2b679acf61876a840564f152e730489d873e5a3fb86d0000c7e8c7f38269a270f913a3c2e190bc5c8bad7f94207b9fb5261376cdd25791b7eaaf90bc4"
         }
       ],
       "licenses": [
         {
           "license": {
-            "id": "MIT"
+            "id": "BSD-3-Clause"
           }
         }
       ],
-      "purl": "pkg:npm/color-parse@1.3.8",
+      "purl": "pkg:npm/d3-time@1.1.0",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/colorjs/color-parse"
+          "url": "https://d3js.org/d3-time/"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/colorjs/color-parse/issues"
+          "url": "https://github.com/d3/d3-time/issues"
         },
         {
           "type": "vcs",
-          "url": "git+https://github.com/colorjs/color-parse.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/get-canvas-context@1.0.2",
-      "name": "get-canvas-context",
-      "version": "1.0.2",
-      "description": "gets canvas context by name",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "d6e7b50bc4e4c86357cd39f22647a84b73601e93"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/get-canvas-context@1.0.2",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/Jam3/get-canvas-context"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/Jam3/get-canvas-context/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/Jam3/get-canvas-context.git"
+          "url": "git+https://github.com/d3/d3-time.git"
         }
       ]
     },
@@ -5418,41 +5418,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/d3-time@1.1.0",
-      "name": "d3-time",
-      "version": "1.1.0",
-      "description": "A calculator for humanity’s peculiar conventions of time.",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "5e1d22b2b679acf61876a840564f152e730489d873e5a3fb86d0000c7e8c7f38269a270f913a3c2e190bc5c8bad7f94207b9fb5261376cdd25791b7eaaf90bc4"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause"
-          }
-        }
-      ],
-      "purl": "pkg:npm/d3-time@1.1.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://d3js.org/d3-time/"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/d3/d3-time/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/d3/d3-time.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/is-obj@1.0.1",
       "name": "is-obj",
       "version": "1.0.1",
@@ -5488,6 +5453,41 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:npm/get-canvas-context@1.0.2",
+      "name": "get-canvas-context",
+      "version": "1.0.2",
+      "description": "gets canvas context by name",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d6e7b50bc4e4c86357cd39f22647a84b73601e93"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/get-canvas-context@1.0.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/Jam3/get-canvas-context"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Jam3/get-canvas-context/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/Jam3/get-canvas-context.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:npm/performance-now@2.1.0",
       "name": "performance-now",
       "version": "2.1.0",
@@ -5518,6 +5518,76 @@
         {
           "type": "vcs",
           "url": "git://github.com/braveg1rl/performance-now.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/binary-search-bounds@2.0.5",
+      "name": "binary-search-bounds",
+      "version": "2.0.5",
+      "description": "Better binary searching",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1f479ae05777952d7eb13101d9381c2e82b6d652e1c04273950bf720de3ba494bdefa1b1e33a167b46a4deafae621eb4a6943183d175e918b8b52d6c7c3e3e8c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/binary-search-bounds@2.0.5",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/mikolalysenko/binary-search-bounds#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mikolalysenko/binary-search-bounds/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/mikolalysenko/binary-search-bounds.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/defined@1.0.0",
+      "name": "defined",
+      "version": "1.0.0",
+      "description": "return the first argument that is `!== undefined`",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c98d9bcef75674188e110969151199e39b1fa693"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/defined@1.0.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/substack/defined"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/substack/defined/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/substack/defined.git"
         }
       ]
     },
@@ -5593,49 +5663,14 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/binary-search-bounds@2.0.5",
-      "name": "binary-search-bounds",
-      "version": "2.0.5",
-      "description": "Better binary searching",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "1f479ae05777952d7eb13101d9381c2e82b6d652e1c04273950bf720de3ba494bdefa1b1e33a167b46a4deafae621eb4a6943183d175e918b8b52d6c7c3e3e8c"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/binary-search-bounds@2.0.5",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/mikolalysenko/binary-search-bounds#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/mikolalysenko/binary-search-bounds/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/mikolalysenko/binary-search-bounds.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/defined@1.0.0",
-      "name": "defined",
-      "version": "1.0.0",
-      "description": "return the first argument that is `!== undefined`",
+      "bom-ref": "pkg:npm/math-log2@1.0.1",
+      "name": "math-log2",
+      "version": "1.0.1",
+      "description": "ES2015 Math.log2() ponyfill",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "c98d9bcef75674188e110969151199e39b1fa693"
+          "content": "fb8941be5f5ebe8979e718e6273b178e58694565"
         }
       ],
       "licenses": [
@@ -5645,19 +5680,19 @@
           }
         }
       ],
-      "purl": "pkg:npm/defined@1.0.0",
+      "purl": "pkg:npm/math-log2@1.0.1",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/substack/defined"
+          "url": "https://github.com/sindresorhus/math-log2#readme"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/substack/defined/issues"
+          "url": "https://github.com/sindresorhus/math-log2/issues"
         },
         {
           "type": "vcs",
-          "url": "git://github.com/substack/defined.git"
+          "url": "git+https://github.com/sindresorhus/math-log2.git"
         }
       ]
     },
@@ -5735,6 +5770,41 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:npm/elementary-circuits-directed-graph@1.3.1",
+      "name": "elementary-circuits-directed-graph",
+      "version": "1.3.1",
+      "description": "Finds all elementary circuits of a directed graph using Johnson's algorithm (1975)",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "644881e6a927d9a7589a95c69c92a4c53f2e247956fe6c6606999ea9ac041f33f187d1e42c3e3fd661585f99743a7f9feab70f22df3f116951536568ddf5fa75"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/elementary-circuits-directed-graph@1.3.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/antoinerg/elementary-circuits-directed-graph#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/antoinerg/elementary-circuits-directed-graph/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/antoinerg/elementary-circuits-directed-graph.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:npm/dup@1.0.0",
       "name": "dup",
       "version": "1.0.0",
@@ -5770,14 +5840,14 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/math-log2@1.0.1",
-      "name": "math-log2",
-      "version": "1.0.1",
-      "description": "ES2015 Math.log2() ponyfill",
+      "bom-ref": "pkg:npm/es6-iterator@2.0.3",
+      "name": "es6-iterator",
+      "version": "2.0.3",
+      "description": "Iterator abstraction based on ES6 specification",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "fb8941be5f5ebe8979e718e6273b178e58694565"
+          "content": "a7de889141a05a94b0854403b2d0a0fbfa98f3b7"
         }
       ],
       "licenses": [
@@ -5787,54 +5857,54 @@
           }
         }
       ],
-      "purl": "pkg:npm/math-log2@1.0.1",
+      "purl": "pkg:npm/es6-iterator@2.0.3",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/sindresorhus/math-log2#readme"
+          "url": "https://github.com/medikoo/es6-iterator#readme"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/sindresorhus/math-log2/issues"
+          "url": "https://github.com/medikoo/es6-iterator/issues"
         },
         {
           "type": "vcs",
-          "url": "git+https://github.com/sindresorhus/math-log2.git"
+          "url": "git://github.com/medikoo/es6-iterator.git"
         }
       ]
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/elementary-circuits-directed-graph@1.3.1",
-      "name": "elementary-circuits-directed-graph",
-      "version": "1.3.1",
-      "description": "Finds all elementary circuits of a directed graph using Johnson's algorithm (1975)",
+      "bom-ref": "pkg:npm/es5-ext@0.10.53",
+      "name": "es5-ext",
+      "version": "0.10.53",
+      "description": "ECMAScript extensions and shims",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "644881e6a927d9a7589a95c69c92a4c53f2e247956fe6c6606999ea9ac041f33f187d1e42c3e3fd661585f99743a7f9feab70f22df3f116951536568ddf5fa75"
+          "content": "5ecd92b70e8d88d1d6ca9cd14d8d4cb5a1bfb899700a4f241fcd7ddb499af26bcdf17ab582c7e166fa642262d002bc3c0079eff0c4f6238e49ddcd11f2c944f9"
         }
       ],
       "licenses": [
         {
           "license": {
-            "id": "MIT"
+            "id": "ISC"
           }
         }
       ],
-      "purl": "pkg:npm/elementary-circuits-directed-graph@1.3.1",
+      "purl": "pkg:npm/es5-ext@0.10.53",
       "externalReferences": [
         {
           "type": "website",
-          "url": "https://github.com/antoinerg/elementary-circuits-directed-graph#readme"
+          "url": "https://github.com/medikoo/es5-ext#readme"
         },
         {
           "type": "issue-tracker",
-          "url": "https://github.com/antoinerg/elementary-circuits-directed-graph/issues"
+          "url": "https://github.com/medikoo/es5-ext/issues"
         },
         {
           "type": "vcs",
-          "url": "git://github.com/antoinerg/elementary-circuits-directed-graph.git"
+          "url": "git+https://github.com/medikoo/es5-ext.git"
         }
       ]
     },
@@ -5945,76 +6015,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/es6-iterator@2.0.3",
-      "name": "es6-iterator",
-      "version": "2.0.3",
-      "description": "Iterator abstraction based on ES6 specification",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "a7de889141a05a94b0854403b2d0a0fbfa98f3b7"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/es6-iterator@2.0.3",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/medikoo/es6-iterator#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/medikoo/es6-iterator/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/medikoo/es6-iterator.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/es5-ext@0.10.53",
-      "name": "es5-ext",
-      "version": "0.10.53",
-      "description": "ECMAScript extensions and shims",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "5ecd92b70e8d88d1d6ca9cd14d8d4cb5a1bfb899700a4f241fcd7ddb499af26bcdf17ab582c7e166fa642262d002bc3c0079eff0c4f6238e49ddcd11f2c944f9"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "ISC"
-          }
-        }
-      ],
-      "purl": "pkg:npm/es5-ext@0.10.53",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/medikoo/es5-ext#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/medikoo/es5-ext/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/medikoo/es5-ext.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/d@1.0.1",
       "name": "d",
       "version": "1.0.1",
@@ -6080,6 +6080,181 @@
         {
           "type": "vcs",
           "url": "git://github.com/medikoo/es6-symbol.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/normalize-svg-path@1.1.0",
+      "name": "normalize-svg-path",
+      "version": "1.1.0",
+      "description": "Convert all segments in a path to curves",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "afd287286d9451e0792e84e8bb00f3072d95c57947b2233a7f22d0be725ad12e61ae1cea1251ff087ed3506853d5f56f21804829fdcea58e1827808afa26aa1e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/normalize-svg-path@1.1.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/jkroso/normalize-svg-path#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/jkroso/normalize-svg-path/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/jkroso/normalize-svg-path.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/abs-svg-path@0.1.1",
+      "name": "abs-svg-path",
+      "version": "0.1.1",
+      "description": "redefine an svg path with absolute coordinates",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "df601c8e8d2ba10d4a76d625e236a9a39c2723bf"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/abs-svg-path@0.1.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/jkroso/abs-svg-path#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/jkroso/abs-svg-path/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/jkroso/abs-svg-path.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/normalize-svg-path@0.1.0",
+      "name": "normalize-svg-path",
+      "version": "0.1.0",
+      "description": "convert all segments in a path to curves",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "456360e60ece75fbef7b5d7e160480e7ffd16fe5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/normalize-svg-path@0.1.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/jkroso/normalize-svg-path#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/jkroso/normalize-svg-path/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/jkroso/normalize-svg-path.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/color-name@1.1.3",
+      "name": "color-name",
+      "version": "1.1.3",
+      "description": "A list of color names and its values",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a7d0558bd89c42f795dd42328f740831ca53bc25"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/color-name@1.1.3",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/dfcreative/color-name"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/dfcreative/color-name/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/dfcreative/color-name.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/d3-collection@1.0.7",
+      "name": "d3-collection",
+      "version": "1.0.7",
+      "description": "Handy data structures for elements keyed by string.",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8a2d3faf97f8b2328d4df87ce038be0e9ced630a8a844c9494aa0faf35057de4a45b18d6e3dc54d90ccef6aacfacd929748d172647f3be64eef15d99ca5967e8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/d3-collection@1.0.7",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://d3js.org/d3-collection/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/d3/d3-collection/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/d3/d3-collection.git"
         }
       ]
     },
@@ -6330,41 +6505,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/d3-collection@1.0.7",
-      "name": "d3-collection",
-      "version": "1.0.7",
-      "description": "Handy data structures for elements keyed by string.",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "8a2d3faf97f8b2328d4df87ce038be0e9ced630a8a844c9494aa0faf35057de4a45b18d6e3dc54d90ccef6aacfacd929748d172647f3be64eef15d99ca5967e8"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause"
-          }
-        }
-      ],
-      "purl": "pkg:npm/d3-collection@1.0.7",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://d3js.org/d3-collection/"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/d3/d3-collection/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/d3/d3-collection.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/mouse-event@1.0.5",
       "name": "mouse-event",
       "version": "1.0.5",
@@ -6395,181 +6535,6 @@
         {
           "type": "vcs",
           "url": "git+https://github.com/mikolalysenko/mouse-event.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/normalize-svg-path@1.1.0",
-      "name": "normalize-svg-path",
-      "version": "1.1.0",
-      "description": "Convert all segments in a path to curves",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "afd287286d9451e0792e84e8bb00f3072d95c57947b2233a7f22d0be725ad12e61ae1cea1251ff087ed3506853d5f56f21804829fdcea58e1827808afa26aa1e"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/normalize-svg-path@1.1.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/jkroso/normalize-svg-path#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/jkroso/normalize-svg-path/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/jkroso/normalize-svg-path.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/abs-svg-path@0.1.1",
-      "name": "abs-svg-path",
-      "version": "0.1.1",
-      "description": "redefine an svg path with absolute coordinates",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "df601c8e8d2ba10d4a76d625e236a9a39c2723bf"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/abs-svg-path@0.1.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/jkroso/abs-svg-path#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/jkroso/abs-svg-path/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/jkroso/abs-svg-path.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/normalize-svg-path@0.1.0",
-      "name": "normalize-svg-path",
-      "version": "0.1.0",
-      "description": "convert all segments in a path to curves",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "456360e60ece75fbef7b5d7e160480e7ffd16fe5"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/normalize-svg-path@0.1.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/jkroso/normalize-svg-path#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/jkroso/normalize-svg-path/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/jkroso/normalize-svg-path.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/color-name@1.1.3",
-      "name": "color-name",
-      "version": "1.1.3",
-      "description": "A list of color names and its values",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "a7d0558bd89c42f795dd42328f740831ca53bc25"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/color-name@1.1.3",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/dfcreative/color-name"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/dfcreative/color-name/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+ssh://git@github.com/dfcreative/color-name.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/css-font-size-keywords@1.0.0",
-      "name": "css-font-size-keywords",
-      "version": "1.0.0",
-      "description": "List of CSS font size keywords.",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "854875ace9aca6a8d2ee0d345a44aae9bb6db6cb"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/css-font-size-keywords@1.0.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/jedmao/css-font-size-keywords#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/jedmao/css-font-size-keywords/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/jedmao/css-font-size-keywords.git"
         }
       ]
     },
@@ -6610,6 +6575,41 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:npm/css-font-size-keywords@1.0.0",
+      "name": "css-font-size-keywords",
+      "version": "1.0.0",
+      "description": "List of CSS font size keywords.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "854875ace9aca6a8d2ee0d345a44aae9bb6db6cb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/css-font-size-keywords@1.0.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/jedmao/css-font-size-keywords#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/jedmao/css-font-size-keywords/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/jedmao/css-font-size-keywords.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:npm/stream-parser@0.3.1",
       "name": "stream-parser",
       "version": "0.3.1",
@@ -6640,41 +6640,6 @@
         {
           "type": "vcs",
           "url": "git://github.com/TooTallNate/node-stream-parser.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/d3-path@1.0.9",
-      "name": "d3-path",
-      "version": "1.0.9",
-      "description": "Serialize Canvas path commands to SVG.",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "54b698727f3576d1d54e310777c07ea5b7bdc875a95ca6540bcecfce8166b05ac9aa01700defeac5fa793257ec7ccd55e44fe256dd0c9846d643b15521787f6e"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause"
-          }
-        }
-      ],
-      "purl": "pkg:npm/d3-path@1.0.9",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://d3js.org/d3-path/"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/d3/d3-path/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/d3/d3-path.git"
         }
       ]
     },
@@ -6715,6 +6680,41 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:npm/d3-path@1.0.9",
+      "name": "d3-path",
+      "version": "1.0.9",
+      "description": "Serialize Canvas path commands to SVG.",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "54b698727f3576d1d54e310777c07ea5b7bdc875a95ca6540bcecfce8166b05ac9aa01700defeac5fa793257ec7ccd55e44fe256dd0c9846d643b15521787f6e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/d3-path@1.0.9",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://d3js.org/d3-path/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/d3/d3-path/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/d3/d3-path.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:npm/parenthesis@3.1.8",
       "name": "parenthesis",
       "version": "3.1.8",
@@ -6750,41 +6750,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/stream-browserify@3.0.0",
-      "name": "stream-browserify",
-      "version": "3.0.0",
-      "description": "the stream module from node core for browsers",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "1fbdd1007b1505aa5b8a6d2d536270c0e897523f9f8a47e26a86002871775497c0d297b6042ce48401c194b1ba444cc4fb658d65cc4e5e32bb964b28fbd7ae2c"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/stream-browserify@3.0.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/browserify/stream-browserify"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/browserify/stream-browserify/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/browserify/stream-browserify.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/svg-arc-to-cubic-bezier@3.2.0",
       "name": "svg-arc-to-cubic-bezier",
       "version": "3.2.0",
@@ -6815,6 +6780,41 @@
         {
           "type": "vcs",
           "url": "git+https://github.com/colinmeinke/svg-arc-to-cubic-bezier.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/stream-browserify@3.0.0",
+      "name": "stream-browserify",
+      "version": "3.0.0",
+      "description": "the stream module from node core for browsers",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1fbdd1007b1505aa5b8a6d2d536270c0e897523f9f8a47e26a86002871775497c0d297b6042ce48401c194b1ba444cc4fb658d65cc4e5e32bb964b28fbd7ae2c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/stream-browserify@3.0.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/browserify/stream-browserify"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/browserify/stream-browserify/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/browserify/stream-browserify.git"
         }
       ]
     },
@@ -7033,7 +7033,7 @@
     {
       "ref": "pkg:npm/minecraft-perf-viewer@0.0.1",
       "dependsOn": [
-        "pkg:npm/core-js@3.21.1",
+        "pkg:npm/core-js@3.21.0",
         "pkg:npm/vue@3.2.27",
         "pkg:npm/quasar@2.5.5",
         "pkg:npm/console-browserify@1.2.0",
@@ -7045,7 +7045,7 @@
       ]
     },
     {
-      "ref": "pkg:npm/core-js@3.21.1"
+      "ref": "pkg:npm/core-js@3.21.0"
     },
     {
       "ref": "pkg:npm/vue@3.2.27",
@@ -7056,7 +7056,7 @@
     {
       "ref": "pkg:npm/quasar@2.5.5",
       "dependsOn": [
-        "pkg:npm/core-js@3.21.1"
+        "pkg:npm/core-js@3.21.0"
       ]
     },
     {
@@ -7074,10 +7074,10 @@
       "dependsOn": [
         "pkg:npm/process@0.11.10",
         "pkg:npm/inherits@2.0.4",
-        "pkg:npm/is-arguments@1.1.1",
         "pkg:npm/is-generator-function@1.0.10",
-        "pkg:npm/which-typed-array@1.1.7",
-        "pkg:npm/is-typed-array@1.1.8"
+        "pkg:npm/is-arguments@1.1.1",
+        "pkg:npm/is-typed-array@1.1.8",
+        "pkg:npm/which-typed-array@1.1.7"
       ]
     },
     {
@@ -7144,17 +7144,19 @@
       "ref": "pkg:npm/%40vue/shared@3.2.27"
     },
     {
-      "ref": "pkg:npm/is-arguments@1.1.1",
+      "ref": "pkg:npm/is-generator-function@1.0.10",
       "dependsOn": [
-        "pkg:npm/call-bind@1.0.2",
         "pkg:npm/has-tostringtag@1.0.0"
       ]
     },
     {
-      "ref": "pkg:npm/is-generator-function@1.0.10"
+      "ref": "pkg:npm/is-arguments@1.1.1",
+      "dependsOn": [
+        "pkg:npm/call-bind@1.0.2"
+      ]
     },
     {
-      "ref": "pkg:npm/which-typed-array@1.1.7",
+      "ref": "pkg:npm/is-typed-array@1.1.8",
       "dependsOn": [
         "pkg:npm/es-abstract@1.19.1",
         "pkg:npm/foreach@2.0.5",
@@ -7162,7 +7164,7 @@
       ]
     },
     {
-      "ref": "pkg:npm/is-typed-array@1.1.8"
+      "ref": "pkg:npm/which-typed-array@1.1.7"
     },
     {
       "ref": "pkg:npm/is-nan@1.3.2"
@@ -7196,10 +7198,10 @@
       ]
     },
     {
-      "ref": "pkg:npm/es-abstract@1.19.1"
+      "ref": "pkg:npm/%40vue/reactivity@3.2.27"
     },
     {
-      "ref": "pkg:npm/%40vue/reactivity@3.2.27"
+      "ref": "pkg:npm/es-abstract@1.19.1"
     },
     {
       "ref": "pkg:npm/foreach@2.0.5"
@@ -7237,11 +7239,11 @@
         "pkg:npm/%40plotly/d3@3.8.0",
         "pkg:npm/tinycolor2@1.4.2",
         "pkg:npm/regl-scatter2d@3.2.8",
-        "pkg:npm/regl-line2d@3.1.2",
         "pkg:npm/regl-error2d@2.0.12",
         "pkg:npm/gl-text@1.3.1",
         "pkg:npm/%40plotly/point-cluster@3.1.9",
         "pkg:npm/regl-splom@1.0.14",
+        "pkg:npm/regl-line2d@3.1.2",
         "pkg:npm/strongly-connected-components@1.0.1",
         "pkg:npm/mapbox-gl@1.10.1",
         "pkg:npm/world-calendars@1.0.3",
@@ -7256,12 +7258,12 @@
         "pkg:npm/color-normalize@1.5.0",
         "pkg:npm/country-regex@1.1.0",
         "pkg:npm/svg-path-sdf@1.1.3",
-        "pkg:npm/regl@2.1.0",
         "pkg:npm/color-rgba@2.1.1",
-        "pkg:npm/polybooljs@1.2.0",
+        "pkg:npm/regl@2.1.0",
         "pkg:npm/%40turf/area@6.5.0",
         "pkg:npm/%40turf/centroid@6.5.0",
         "pkg:npm/%40turf/bbox@6.5.0",
+        "pkg:npm/polybooljs@1.2.0",
         "pkg:npm/webgl-context@2.2.0",
         "pkg:npm/parse-svg-path@0.1.2",
         "pkg:npm/mouse-change@1.4.0",
@@ -7455,15 +7457,6 @@
       ]
     },
     {
-      "ref": "pkg:npm/regl-line2d@3.1.2",
-      "dependsOn": [
-        "pkg:npm/array-normalize@1.1.4",
-        "pkg:npm/earcut@2.2.3",
-        "pkg:npm/es6-weak-map@2.0.3",
-        "pkg:npm/array-find-index@1.0.2"
-      ]
-    },
-    {
       "ref": "pkg:npm/regl-error2d@2.0.12"
     },
     {
@@ -7498,6 +7491,15 @@
       ]
     },
     {
+      "ref": "pkg:npm/regl-line2d@3.1.2",
+      "dependsOn": [
+        "pkg:npm/array-normalize@1.1.4",
+        "pkg:npm/earcut@2.2.3",
+        "pkg:npm/es6-weak-map@2.0.3",
+        "pkg:npm/array-find-index@1.0.2"
+      ]
+    },
+    {
       "ref": "pkg:npm/strongly-connected-components@1.0.1"
     },
     {
@@ -7519,6 +7521,9 @@
       "ref": "pkg:npm/robust-predicates@3.0.1"
     },
     {
+      "ref": "pkg:npm/is-string-blank@1.0.1"
+    },
+    {
       "ref": "pkg:npm/has-hover@1.0.1",
       "dependsOn": [
         "pkg:npm/is-browser@2.1.0"
@@ -7528,12 +7533,6 @@
       "ref": "pkg:npm/events@3.3.0"
     },
     {
-      "ref": "pkg:npm/is-string-blank@1.0.1"
-    },
-    {
-      "ref": "pkg:npm/buffer@5.7.1"
-    },
-    {
       "ref": "pkg:npm/d3-hierarchy@1.1.9"
     },
     {
@@ -7541,6 +7540,9 @@
       "dependsOn": [
         "pkg:npm/d3-color@1.4.1"
       ]
+    },
+    {
+      "ref": "pkg:npm/buffer@5.7.1"
     },
     {
       "ref": "pkg:npm/probe-image-size@7.2.3",
@@ -7578,6 +7580,13 @@
       ]
     },
     {
+      "ref": "pkg:npm/color-rgba@2.1.1",
+      "dependsOn": [
+        "pkg:npm/color-space@1.16.0",
+        "pkg:npm/color-parse@1.3.8"
+      ]
+    },
+    {
       "ref": "pkg:npm/regl@2.1.0"
     },
     {
@@ -7608,19 +7617,6 @@
       "ref": "pkg:npm/parse-rect@1.2.0"
     },
     {
-      "ref": "pkg:npm/color-rgba@2.1.1",
-      "dependsOn": [
-        "pkg:npm/color-space@1.16.0",
-        "pkg:npm/color-parse@1.3.8"
-      ]
-    },
-    {
-      "ref": "pkg:npm/array-normalize@1.1.4"
-    },
-    {
-      "ref": "pkg:npm/polybooljs@1.2.0"
-    },
-    {
       "ref": "pkg:npm/raf@3.4.1",
       "dependsOn": [
         "pkg:npm/performance-now@2.1.0"
@@ -7628,6 +7624,9 @@
     },
     {
       "ref": "pkg:npm/array-range@1.0.1"
+    },
+    {
+      "ref": "pkg:npm/array-normalize@1.1.4"
     },
     {
       "ref": "pkg:npm/%40turf/area@6.5.0",
@@ -7643,6 +7642,9 @@
     },
     {
       "ref": "pkg:npm/%40turf/bbox@6.5.0"
+    },
+    {
+      "ref": "pkg:npm/polybooljs@1.2.0"
     },
     {
       "ref": "pkg:npm/object-assign@4.1.1"
@@ -7721,6 +7723,9 @@
       ]
     },
     {
+      "ref": "pkg:npm/is-browser@2.1.0"
+    },
+    {
       "ref": "pkg:npm/d3-force@1.2.1",
       "dependsOn": [
         "pkg:npm/d3-quadtree@1.0.7",
@@ -7729,14 +7734,10 @@
       ]
     },
     {
-      "ref": "pkg:npm/is-browser@2.1.0"
+      "ref": "pkg:npm/d3-color@1.4.1"
     },
     {
-      "ref": "pkg:npm/d3-geo-projection@2.9.0",
-      "dependsOn": [
-        "pkg:npm/d3-geo@1.12.1",
-        "pkg:npm/d3-array@1.2.4"
-      ]
+      "ref": "pkg:npm/color-space@1.16.0"
     },
     {
       "ref": "pkg:npm/%40plotly/d3-sankey@0.7.2",
@@ -7746,7 +7747,11 @@
       ]
     },
     {
-      "ref": "pkg:npm/d3-color@1.4.1"
+      "ref": "pkg:npm/d3-geo-projection@2.9.0",
+      "dependsOn": [
+        "pkg:npm/d3-geo@1.12.1",
+        "pkg:npm/d3-array@1.2.4"
+      ]
     },
     {
       "ref": "pkg:npm/parse-svg-path@0.1.2"
@@ -7774,12 +7779,6 @@
       "ref": "pkg:npm/bitmap-sdf@1.0.3"
     },
     {
-      "ref": "pkg:npm/color-space@1.16.0"
-    },
-    {
-      "ref": "pkg:npm/dtype@2.0.0"
-    },
-    {
       "ref": "pkg:npm/color-parse@1.3.8",
       "dependsOn": [
         "pkg:npm/is-plain-obj@1.1.0",
@@ -7787,7 +7786,10 @@
       ]
     },
     {
-      "ref": "pkg:npm/get-canvas-context@1.0.2"
+      "ref": "pkg:npm/dtype@2.0.0"
+    },
+    {
+      "ref": "pkg:npm/d3-time@1.1.0"
     },
     {
       "ref": "pkg:npm/mouse-change@1.4.0",
@@ -7799,13 +7801,19 @@
       "ref": "pkg:npm/mouse-wheel@1.2.0"
     },
     {
-      "ref": "pkg:npm/d3-time@1.1.0"
-    },
-    {
       "ref": "pkg:npm/is-obj@1.0.1"
     },
     {
+      "ref": "pkg:npm/get-canvas-context@1.0.2"
+    },
+    {
       "ref": "pkg:npm/performance-now@2.1.0"
+    },
+    {
+      "ref": "pkg:npm/binary-search-bounds@2.0.5"
+    },
+    {
+      "ref": "pkg:npm/defined@1.0.0"
     },
     {
       "ref": "pkg:npm/%40plotly/d3-sankey-circular@0.33.1",
@@ -7825,10 +7833,7 @@
       ]
     },
     {
-      "ref": "pkg:npm/binary-search-bounds@2.0.5"
-    },
-    {
-      "ref": "pkg:npm/defined@1.0.0"
+      "ref": "pkg:npm/math-log2@1.0.1"
     },
     {
       "ref": "pkg:npm/%40turf/meta@6.5.0"
@@ -7837,22 +7842,10 @@
       "ref": "pkg:npm/%40turf/helpers@6.5.0"
     },
     {
-      "ref": "pkg:npm/dup@1.0.0"
-    },
-    {
-      "ref": "pkg:npm/math-log2@1.0.1"
-    },
-    {
       "ref": "pkg:npm/elementary-circuits-directed-graph@1.3.1"
     },
     {
-      "ref": "pkg:npm/d3-quadtree@1.0.7"
-    },
-    {
-      "ref": "pkg:npm/d3-dispatch@1.0.6"
-    },
-    {
-      "ref": "pkg:npm/d3-timer@1.0.10"
+      "ref": "pkg:npm/dup@1.0.0"
     },
     {
       "ref": "pkg:npm/es6-iterator@2.0.3",
@@ -7863,6 +7856,15 @@
     },
     {
       "ref": "pkg:npm/es5-ext@0.10.53"
+    },
+    {
+      "ref": "pkg:npm/d3-quadtree@1.0.7"
+    },
+    {
+      "ref": "pkg:npm/d3-dispatch@1.0.6"
+    },
+    {
+      "ref": "pkg:npm/d3-timer@1.0.10"
     },
     {
       "ref": "pkg:npm/d@1.0.1",
@@ -7876,6 +7878,24 @@
       "dependsOn": [
         "pkg:npm/ext@1.6.0"
       ]
+    },
+    {
+      "ref": "pkg:npm/normalize-svg-path@1.1.0",
+      "dependsOn": [
+        "pkg:npm/svg-arc-to-cubic-bezier@3.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/abs-svg-path@0.1.1"
+    },
+    {
+      "ref": "pkg:npm/normalize-svg-path@0.1.0"
+    },
+    {
+      "ref": "pkg:npm/color-name@1.1.3"
+    },
+    {
+      "ref": "pkg:npm/d3-collection@1.0.7"
     },
     {
       "ref": "pkg:npm/unquote@1.1.1"
@@ -7902,31 +7922,13 @@
       ]
     },
     {
-      "ref": "pkg:npm/d3-collection@1.0.7"
-    },
-    {
       "ref": "pkg:npm/mouse-event@1.0.5"
     },
     {
-      "ref": "pkg:npm/normalize-svg-path@1.1.0",
-      "dependsOn": [
-        "pkg:npm/svg-arc-to-cubic-bezier@3.2.0"
-      ]
-    },
-    {
-      "ref": "pkg:npm/abs-svg-path@0.1.1"
-    },
-    {
-      "ref": "pkg:npm/normalize-svg-path@0.1.0"
-    },
-    {
-      "ref": "pkg:npm/color-name@1.1.3"
+      "ref": "pkg:npm/type@1.2.0"
     },
     {
       "ref": "pkg:npm/css-font-size-keywords@1.0.0"
-    },
-    {
-      "ref": "pkg:npm/type@1.2.0"
     },
     {
       "ref": "pkg:npm/stream-parser@0.3.1",
@@ -7935,22 +7937,22 @@
       ]
     },
     {
-      "ref": "pkg:npm/d3-path@1.0.9"
-    },
-    {
       "ref": "pkg:npm/ext@1.6.0"
     },
     {
+      "ref": "pkg:npm/d3-path@1.0.9"
+    },
+    {
       "ref": "pkg:npm/parenthesis@3.1.8"
+    },
+    {
+      "ref": "pkg:npm/svg-arc-to-cubic-bezier@3.2.0"
     },
     {
       "ref": "pkg:npm/stream-browserify@3.0.0",
       "dependsOn": [
         "pkg:npm/readable-stream@3.6.0"
       ]
-    },
-    {
-      "ref": "pkg:npm/svg-arc-to-cubic-bezier@3.2.0"
     },
     {
       "ref": "pkg:npm/debug@2.6.9",
