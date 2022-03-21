@@ -41,7 +41,7 @@
     "@typescript-eslint/parser": "^4.16.1",
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-jest": "^26.1.2",
     "eslint-plugin-vue": "^8.5.0",
     "node-polyfill-webpack-plugin": "^1.1.4",
     "quasar-app-extension-qhierarchy": "^1.0.0-alpha.1"
