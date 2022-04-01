@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.3",
-  "serialNumber": "urn:uuid:baa42fa1-d1fc-4720-ad25-4c852a5499ac",
+  "serialNumber": "urn:uuid:8b24ae85-b5a8-47d0-8fc5-c927205cb8b6",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-04-01T21:16:20.588Z",
+    "timestamp": "2022-04-01T21:16:37.753Z",
     "tools": [
       {
         "vendor": "CycloneDX",
@@ -306,14 +306,14 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/quasar-ui-qhierarchy@1.0.0-alpha.2",
+      "bom-ref": "pkg:npm/quasar-ui-qhierarchy@1.0.0",
       "name": "quasar-ui-qhierarchy",
-      "version": "1.0.0-alpha.2",
+      "version": "1.0.0",
       "description": "QHierarchy",
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "f05bec02466036df48f7f7fc52c415b81f74a66307b18dfeb464da0837bc7a1ac08724e663d1273038bb92a9f0bbe1081480b9397afb08abf03541c3dedb7d0b"
+          "content": "70b807291158f616d7241abfef2c05341f31683cd28a9ffdd821675d18081148a9e392797db0be7ef89f3e707f52b71189bab685fdd90304d14f2304a5421bf1"
         }
       ],
       "licenses": [
@@ -323,7 +323,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/quasar-ui-qhierarchy@1.0.0-alpha.2"
+      "purl": "pkg:npm/quasar-ui-qhierarchy@1.0.0"
     },
     {
       "type": "library",
@@ -2964,41 +2964,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/d3-format@1.4.5",
-      "name": "d3-format",
-      "version": "1.4.5",
-      "description": "Format numbers for human consumption.",
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "274a6279dbba67c881e936c819f6600f37d7c5414ddea4113287f2da83dd5f34226d81aa3c1ffd88c731aff4c66a553ed91b320cef94e1fdf789df2d6e749131"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause"
-          }
-        }
-      ],
-      "purl": "pkg:npm/d3-format@1.4.5",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://d3js.org/d3-format/"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/d3/d3-format/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/d3/d3-format.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/d3-time-format@2.3.0",
       "name": "d3-time-format",
       "version": "2.3.0",
@@ -3029,6 +2994,41 @@
         {
           "type": "vcs",
           "url": "git+https://github.com/d3/d3-time-format.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/d3-format@1.4.5",
+      "name": "d3-format",
+      "version": "1.4.5",
+      "description": "Format numbers for human consumption.",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "274a6279dbba67c881e936c819f6600f37d7c5414ddea4113287f2da83dd5f34226d81aa3c1ffd88c731aff4c66a553ed91b320cef94e1fdf789df2d6e749131"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/d3-format@1.4.5",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://d3js.org/d3-format/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/d3/d3-format/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/d3/d3-format.git"
         }
       ]
     },
@@ -5348,41 +5348,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/is-obj@1.0.1",
-      "name": "is-obj",
-      "version": "1.0.1",
-      "description": "Check if a value is an object",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/is-obj@1.0.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/sindresorhus/is-obj#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/sindresorhus/is-obj/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/sindresorhus/is-obj.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/mouse-change@1.4.0",
       "name": "mouse-change",
       "version": "1.4.0",
@@ -5453,6 +5418,111 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:npm/is-obj@1.0.1",
+      "name": "is-obj",
+      "version": "1.0.1",
+      "description": "Check if a value is an object",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/is-obj@1.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/sindresorhus/is-obj#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/sindresorhus/is-obj/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/sindresorhus/is-obj.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/performance-now@2.1.0",
+      "name": "performance-now",
+      "version": "2.1.0",
+      "description": "Implements performance.now (based on process.hrtime).",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/performance-now@2.1.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/braveg1rl/performance-now"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/braveg1rl/performance-now/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/braveg1rl/performance-now.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/get-canvas-context@1.0.2",
+      "name": "get-canvas-context",
+      "version": "1.0.2",
+      "description": "gets canvas context by name",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d6e7b50bc4e4c86357cd39f22647a84b73601e93"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/get-canvas-context@1.0.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/Jam3/get-canvas-context"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Jam3/get-canvas-context/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/Jam3/get-canvas-context.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:npm/d3-array@1.2.4",
       "name": "d3-array",
       "version": "1.2.4",
@@ -5518,76 +5588,6 @@
         {
           "type": "vcs",
           "url": "git+https://github.com/d3/d3-shape.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/get-canvas-context@1.0.2",
-      "name": "get-canvas-context",
-      "version": "1.0.2",
-      "description": "gets canvas context by name",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "d6e7b50bc4e4c86357cd39f22647a84b73601e93"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/get-canvas-context@1.0.2",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/Jam3/get-canvas-context"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/Jam3/get-canvas-context/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/Jam3/get-canvas-context.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:npm/performance-now@2.1.0",
-      "name": "performance-now",
-      "version": "2.1.0",
-      "description": "Implements performance.now (based on process.hrtime).",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/performance-now@2.1.0",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/braveg1rl/performance-now"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/braveg1rl/performance-now/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/braveg1rl/performance-now.git"
         }
       ]
     },
@@ -5698,41 +5698,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/math-log2@1.0.1",
-      "name": "math-log2",
-      "version": "1.0.1",
-      "description": "ES2015 Math.log2() ponyfill",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "fb8941be5f5ebe8979e718e6273b178e58694565"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/math-log2@1.0.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/sindresorhus/math-log2#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/sindresorhus/math-log2/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/sindresorhus/math-log2.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/%40turf/meta@6.5.0",
       "group": "@turf",
       "name": "meta",
@@ -5800,6 +5765,41 @@
         {
           "type": "vcs",
           "url": "git://github.com/Turfjs/turf.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/math-log2@1.0.1",
+      "name": "math-log2",
+      "version": "1.0.1",
+      "description": "ES2015 Math.log2() ponyfill",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fb8941be5f5ebe8979e718e6273b178e58694565"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/math-log2@1.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/sindresorhus/math-log2#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/sindresorhus/math-log2/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/sindresorhus/math-log2.git"
         }
       ]
     },
@@ -6610,41 +6610,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:npm/stream-parser@0.3.1",
-      "name": "stream-parser",
-      "version": "0.3.1",
-      "description": "Generic interruptible \"parser\" mixin for Transform & Writable streams",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "1618548694420021a1182ff0af1911c129761773"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/stream-parser@0.3.1",
-      "externalReferences": [
-        {
-          "type": "website",
-          "url": "https://github.com/TooTallNate/node-stream-parser#readme"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/TooTallNate/node-stream-parser/issues"
-        },
-        {
-          "type": "vcs",
-          "url": "git://github.com/TooTallNate/node-stream-parser.git"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:npm/d3-path@1.0.9",
       "name": "d3-path",
       "version": "1.0.9",
@@ -6745,6 +6710,41 @@
         {
           "type": "vcs",
           "url": "git+https://github.com/colinmeinke/svg-arc-to-cubic-bezier.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/stream-parser@0.3.1",
+      "name": "stream-parser",
+      "version": "0.3.1",
+      "description": "Generic interruptible \"parser\" mixin for Transform & Writable streams",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1618548694420021a1182ff0af1911c129761773"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/stream-parser@0.3.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/TooTallNate/node-stream-parser#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/TooTallNate/node-stream-parser/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/TooTallNate/node-stream-parser.git"
         }
       ]
     },
@@ -7088,6 +7088,13 @@
       ]
     },
     {
+      "ref": "pkg:npm/quasar-app-extension-qhierarchy@1.0.0",
+      "dependsOn": [
+        "pkg:npm/quasar@2.6.5",
+        "pkg:npm/quasar-ui-qhierarchy@1.0.0"
+      ]
+    },
+    {
       "ref": "pkg:npm/assert@2.0.0",
       "dependsOn": [
         "pkg:npm/es6-object-assign@1.1.0",
@@ -7096,14 +7103,7 @@
       ]
     },
     {
-      "ref": "pkg:npm/quasar-app-extension-qhierarchy@1.0.0-alpha.1",
-      "dependsOn": [
-        "pkg:npm/quasar@2.6.5",
-        "pkg:npm/quasar-ui-qhierarchy@1.0.0-alpha.2"
-      ]
-    },
-    {
-      "ref": "pkg:npm/quasar-ui-qhierarchy@1.0.0-alpha.2",
+      "ref": "pkg:npm/quasar-ui-qhierarchy@1.0.0",
       "dependsOn": [
         "pkg:npm/%40quasar/app@3.2.9",
         "pkg:npm/quasar@2.6.5"
@@ -7504,10 +7504,10 @@
       "ref": "pkg:npm/mapbox-gl@1.10.1"
     },
     {
-      "ref": "pkg:npm/d3-format@1.4.5"
+      "ref": "pkg:npm/d3-time-format@2.3.0"
     },
     {
-      "ref": "pkg:npm/d3-time-format@2.3.0"
+      "ref": "pkg:npm/d3-format@1.4.5"
     },
     {
       "ref": "pkg:npm/world-calendars@1.0.3"
@@ -7790,9 +7790,6 @@
       "ref": "pkg:npm/dtype@2.0.0"
     },
     {
-      "ref": "pkg:npm/is-obj@1.0.1"
-    },
-    {
       "ref": "pkg:npm/mouse-change@1.4.0",
       "dependsOn": [
         "pkg:npm/mouse-event@1.0.5"
@@ -7800,6 +7797,15 @@
     },
     {
       "ref": "pkg:npm/mouse-wheel@1.2.0"
+    },
+    {
+      "ref": "pkg:npm/is-obj@1.0.1"
+    },
+    {
+      "ref": "pkg:npm/performance-now@2.1.0"
+    },
+    {
+      "ref": "pkg:npm/get-canvas-context@1.0.2"
     },
     {
       "ref": "pkg:npm/%40plotly/d3-sankey-circular@0.33.1",
@@ -7819,12 +7825,6 @@
       ]
     },
     {
-      "ref": "pkg:npm/get-canvas-context@1.0.2"
-    },
-    {
-      "ref": "pkg:npm/performance-now@2.1.0"
-    },
-    {
       "ref": "pkg:npm/binary-search-bounds@2.0.5"
     },
     {
@@ -7834,13 +7834,13 @@
       "ref": "pkg:npm/elementary-circuits-directed-graph@1.3.1"
     },
     {
-      "ref": "pkg:npm/math-log2@1.0.1"
-    },
-    {
       "ref": "pkg:npm/%40turf/meta@6.5.0"
     },
     {
       "ref": "pkg:npm/%40turf/helpers@6.5.0"
+    },
+    {
+      "ref": "pkg:npm/math-log2@1.0.1"
     },
     {
       "ref": "pkg:npm/dup@1.0.0"
@@ -7929,12 +7929,6 @@
       "ref": "pkg:npm/css-font-size-keywords@1.0.0"
     },
     {
-      "ref": "pkg:npm/stream-parser@0.3.1",
-      "dependsOn": [
-        "pkg:npm/debug@2.6.9"
-      ]
-    },
-    {
       "ref": "pkg:npm/d3-path@1.0.9"
     },
     {
@@ -7942,6 +7936,12 @@
     },
     {
       "ref": "pkg:npm/svg-arc-to-cubic-bezier@3.2.0"
+    },
+    {
+      "ref": "pkg:npm/stream-parser@0.3.1",
+      "dependsOn": [
+        "pkg:npm/debug@2.6.9"
+      ]
     },
     {
       "ref": "pkg:npm/parenthesis@3.1.8"
