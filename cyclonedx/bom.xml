@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:2020928d-050c-47e9-ac8c-13504a24082c" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:77f242ea-82e3-4687-b688-ec6ae41f2f6f" version="1">
   <metadata>
-    <timestamp>2022-04-15T11:47:47.221Z</timestamp>
+    <timestamp>2022-04-15T11:49:25.174Z</timestamp>
     <tools>
       <tool>
         <vendor>CycloneDX</vendor>
@@ -168,6 +168,20 @@
         </reference>
       </externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:npm/quasar-ui-qhierarchy@1.0.0">
+      <name>quasar-ui-qhierarchy</name>
+      <version>1.0.0</version>
+      <description><![CDATA[QHierarchy]]></description>
+      <hashes>
+        <hash alg="SHA-512">70b807291158f616d7241abfef2c05341f31683cd28a9ffdd821675d18081148a9e392797db0be7ef89f3e707f52b71189bab685fdd90304d14f2304a5421bf1</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/quasar-ui-qhierarchy@1.0.0</purl>
+    </component>
     <component type="library" bom-ref="pkg:npm/%40vue/runtime-dom@3.2.27">
       <group>@vue</group>
       <name>runtime-dom</name>
@@ -218,20 +232,6 @@
           <url>git+https://github.com/browserify/commonjs-assert.git</url>
         </reference>
       </externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:npm/quasar-ui-qhierarchy@1.0.0">
-      <name>quasar-ui-qhierarchy</name>
-      <version>1.0.0</version>
-      <description><![CDATA[QHierarchy]]></description>
-      <hashes>
-        <hash alg="SHA-512">70b807291158f616d7241abfef2c05341f31683cd28a9ffdd821675d18081148a9e392797db0be7ef89f3e707f52b71189bab685fdd90304d14f2304a5421bf1</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/quasar-ui-qhierarchy@1.0.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/vue-loader@16.8.3">
       <name>vue-loader</name>
@@ -437,31 +437,6 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/is-generator-function@1.0.10">
-      <name>is-generator-function</name>
-      <version>1.0.10</version>
-      <description><![CDATA[Determine if a function is a native generator function.]]></description>
-      <hashes>
-        <hash alg="SHA-512">8ec123cbd977ca25c443e3ec5dd981c043dc3b169758bb2929da65154548f6fab58998087a4782d0bd7aeea7aef3a73341ac5e777abf533bb0d2cc0bd22acbf0</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/is-generator-function@1.0.10</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/inspect-js/is-generator-function#readme</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/inspect-js/is-generator-function/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git://github.com/inspect-js/is-generator-function.git</url>
-        </reference>
-      </externalReferences>
-    </component>
     <component type="library" bom-ref="pkg:npm/is-arguments@1.1.1">
       <name>is-arguments</name>
       <version>1.1.1</version>
@@ -484,6 +459,31 @@
         </reference>
         <reference type="vcs">
           <url>git://github.com/inspect-js/is-arguments.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/is-generator-function@1.0.10">
+      <name>is-generator-function</name>
+      <version>1.0.10</version>
+      <description><![CDATA[Determine if a function is a native generator function.]]></description>
+      <hashes>
+        <hash alg="SHA-512">8ec123cbd977ca25c443e3ec5dd981c043dc3b169758bb2929da65154548f6fab58998087a4782d0bd7aeea7aef3a73341ac5e777abf533bb0d2cc0bd22acbf0</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/is-generator-function@1.0.10</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/inspect-js/is-generator-function#readme</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/inspect-js/is-generator-function/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git://github.com/inspect-js/is-generator-function.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -562,29 +562,28 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/%40vue/devtools-api@6.0.0-beta.21.1">
-      <group>@vue</group>
-      <name>devtools-api</name>
-      <version>6.0.0-beta.21.1</version>
-      <description><![CDATA[Interact with the Vue devtools from the page]]></description>
+    <component type="library" bom-ref="pkg:npm/define-properties@1.1.3">
+      <name>define-properties</name>
+      <version>1.1.3</version>
+      <description><![CDATA[Define multiple non-enumerable properties at once. Uses `Object.defineProperty` when available; falls back to standard assignment in older engines.]]></description>
       <hashes>
-        <hash alg="SHA-512">16a0b8b37a66df9a8655e5d118e8d3b11ce59098eb04bae20d2f585db7e51cbb1f03d16b70acc8c969cb5e8366fbfefddf413cad16a45ee01cd90902e74b3003</hash>
+        <hash alg="SHA-512">dcca9f60a8f694bcdd3127fc648644fd5f99bb2f81803e9fd7ae1ef0adb0edd827a4a02b0437ab198a4ce3a21861c8e791d3cd3233e4f40e95141f3edd22a55d</hash>
       </hashes>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/%40vue/devtools-api@6.0.0-beta.21.1</purl>
+      <purl>pkg:npm/define-properties@1.1.3</purl>
       <externalReferences>
         <reference type="website">
-          <url>https://github.com/vuejs/vue-devtools#readme</url>
+          <url>https://github.com/ljharb/define-properties#readme</url>
         </reference>
         <reference type="issue-tracker">
-          <url>https://github.com/vuejs/vue-devtools/issues</url>
+          <url>https://github.com/ljharb/define-properties/issues</url>
         </reference>
         <reference type="vcs">
-          <url>git+https://github.com/vuejs/vue-devtools.git</url>
+          <url>git://github.com/ljharb/define-properties.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -613,28 +612,29 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/define-properties@1.1.3">
-      <name>define-properties</name>
-      <version>1.1.3</version>
-      <description><![CDATA[Define multiple non-enumerable properties at once. Uses `Object.defineProperty` when available; falls back to standard assignment in older engines.]]></description>
+    <component type="library" bom-ref="pkg:npm/%40vue/devtools-api@6.0.0-beta.21.1">
+      <group>@vue</group>
+      <name>devtools-api</name>
+      <version>6.0.0-beta.21.1</version>
+      <description><![CDATA[Interact with the Vue devtools from the page]]></description>
       <hashes>
-        <hash alg="SHA-512">dcca9f60a8f694bcdd3127fc648644fd5f99bb2f81803e9fd7ae1ef0adb0edd827a4a02b0437ab198a4ce3a21861c8e791d3cd3233e4f40e95141f3edd22a55d</hash>
+        <hash alg="SHA-512">16a0b8b37a66df9a8655e5d118e8d3b11ce59098eb04bae20d2f585db7e51cbb1f03d16b70acc8c969cb5e8366fbfefddf413cad16a45ee01cd90902e74b3003</hash>
       </hashes>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/define-properties@1.1.3</purl>
+      <purl>pkg:npm/%40vue/devtools-api@6.0.0-beta.21.1</purl>
       <externalReferences>
         <reference type="website">
-          <url>https://github.com/ljharb/define-properties#readme</url>
+          <url>https://github.com/vuejs/vue-devtools#readme</url>
         </reference>
         <reference type="issue-tracker">
-          <url>https://github.com/ljharb/define-properties/issues</url>
+          <url>https://github.com/vuejs/vue-devtools/issues</url>
         </reference>
         <reference type="vcs">
-          <url>git://github.com/ljharb/define-properties.git</url>
+          <url>git+https://github.com/vuejs/vue-devtools.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -663,31 +663,6 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/es-abstract@1.19.1">
-      <name>es-abstract</name>
-      <version>1.19.1</version>
-      <description><![CDATA[ECMAScript spec abstract operations.]]></description>
-      <hashes>
-        <hash alg="SHA-512">daf27ab6303f51fa8b9b630fb3b8f15726cba01f22d6dd4977d4779084a5776d2c2313dc4db2ee82040e531796780bc852476ebff09f323ba1e169a25ebdaff7</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/es-abstract@1.19.1</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/ljharb/es-abstract#readme</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/ljharb/es-abstract/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git://github.com/ljharb/es-abstract.git</url>
-        </reference>
-      </externalReferences>
-    </component>
     <component type="library" bom-ref="pkg:npm/%40vue/reactivity@3.2.27">
       <group>@vue</group>
       <name>reactivity</name>
@@ -711,6 +686,31 @@
         </reference>
         <reference type="vcs">
           <url>git+https://github.com/vuejs/vue-next.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/es-abstract@1.19.1">
+      <name>es-abstract</name>
+      <version>1.19.1</version>
+      <description><![CDATA[ECMAScript spec abstract operations.]]></description>
+      <hashes>
+        <hash alg="SHA-512">daf27ab6303f51fa8b9b630fb3b8f15726cba01f22d6dd4977d4779084a5776d2c2313dc4db2ee82040e531796780bc852476ebff09f323ba1e169a25ebdaff7</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/es-abstract@1.19.1</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/ljharb/es-abstract#readme</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/ljharb/es-abstract/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git://github.com/ljharb/es-abstract.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -789,53 +789,28 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/plotly.js@2.11.1">
-      <name>plotly.js</name>
-      <version>2.11.1</version>
-      <description><![CDATA[The open source javascript graphing library that powers plotly]]></description>
+    <component type="library" bom-ref="pkg:npm/object-keys@1.1.1">
+      <name>object-keys</name>
+      <version>1.1.1</version>
+      <description><![CDATA[An Object.keys replacement, in case Object.keys is not available. From https://github.com/es-shims/es5-shim]]></description>
       <hashes>
-        <hash alg="SHA-512">10a00008d4fdc3365dadc53bf7151480b1980a9d5f8b689900013b9551f0d2a31307c0dc74f69852422da544f6436ac8c9fe443eedf3de7fb900acaf0d9fdacf</hash>
+        <hash alg="SHA-512">36e00449439432b9485ce7c72b30fa6e93eeded62ddf1be335d44843e15e4f494d6f82bc591ef409a0f186e360b92d971be1a39323303b3b0de5992d2267e12c</hash>
       </hashes>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/plotly.js@2.11.1</purl>
+      <purl>pkg:npm/object-keys@1.1.1</purl>
       <externalReferences>
         <reference type="website">
-          <url>https://github.com/plotly/plotly.js#readme</url>
+          <url>https://github.com/ljharb/object-keys#readme</url>
         </reference>
         <reference type="issue-tracker">
-          <url>https://github.com/plotly/plotly.js/issues</url>
+          <url>https://github.com/ljharb/object-keys/issues</url>
         </reference>
         <reference type="vcs">
-          <url>git+https://github.com/plotly/plotly.js.git</url>
-        </reference>
-      </externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:npm/jszip@3.9.1">
-      <name>jszip</name>
-      <version>3.9.1</version>
-      <description><![CDATA[Create, read and edit .zip files with JavaScript http://stuartk.com/jszip]]></description>
-      <hashes>
-        <hash alg="SHA-512">1fd03ad313ea2750ae0b829aeaac735d9794f1a36680e78fe4816ac096d0430b6ed84518c68b5adcb76c8995a9945ed681df6d90077499dbb7ea771e49a3ee63</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <name>(MIT OR GPL-3.0-or-later)</name>
-        </license>
-      </licenses>
-      <purl>pkg:npm/jszip@3.9.1</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/Stuk/jszip#readme</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/Stuk/jszip/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/Stuk/jszip.git</url>
+          <url>git://github.com/ljharb/object-keys.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -864,28 +839,28 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/object-keys@1.1.1">
-      <name>object-keys</name>
-      <version>1.1.1</version>
-      <description><![CDATA[An Object.keys replacement, in case Object.keys is not available. From https://github.com/es-shims/es5-shim]]></description>
+    <component type="library" bom-ref="pkg:npm/jszip@3.9.1">
+      <name>jszip</name>
+      <version>3.9.1</version>
+      <description><![CDATA[Create, read and edit .zip files with JavaScript http://stuartk.com/jszip]]></description>
       <hashes>
-        <hash alg="SHA-512">36e00449439432b9485ce7c72b30fa6e93eeded62ddf1be335d44843e15e4f494d6f82bc591ef409a0f186e360b92d971be1a39323303b3b0de5992d2267e12c</hash>
+        <hash alg="SHA-512">1fd03ad313ea2750ae0b829aeaac735d9794f1a36680e78fe4816ac096d0430b6ed84518c68b5adcb76c8995a9945ed681df6d90077499dbb7ea771e49a3ee63</hash>
       </hashes>
       <licenses>
         <license>
-          <id>MIT</id>
+          <name>(MIT OR GPL-3.0-or-later)</name>
         </license>
       </licenses>
-      <purl>pkg:npm/object-keys@1.1.1</purl>
+      <purl>pkg:npm/jszip@3.9.1</purl>
       <externalReferences>
         <reference type="website">
-          <url>https://github.com/ljharb/object-keys#readme</url>
+          <url>https://github.com/Stuk/jszip#readme</url>
         </reference>
         <reference type="issue-tracker">
-          <url>https://github.com/ljharb/object-keys/issues</url>
+          <url>https://github.com/Stuk/jszip/issues</url>
         </reference>
         <reference type="vcs">
-          <url>git://github.com/ljharb/object-keys.git</url>
+          <url>git+https://github.com/Stuk/jszip.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -911,6 +886,56 @@
         </reference>
         <reference type="vcs">
           <url>git://github.com/Raynos/function-bind.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/plotly.js@2.11.1">
+      <name>plotly.js</name>
+      <version>2.11.1</version>
+      <description><![CDATA[The open source javascript graphing library that powers plotly]]></description>
+      <hashes>
+        <hash alg="SHA-512">10a00008d4fdc3365dadc53bf7151480b1980a9d5f8b689900013b9551f0d2a31307c0dc74f69852422da544f6436ac8c9fe443eedf3de7fb900acaf0d9fdacf</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/plotly.js@2.11.1</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/plotly/plotly.js#readme</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/plotly/plotly.js/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/plotly/plotly.js.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/buffer@6.0.3">
+      <name>buffer</name>
+      <version>6.0.3</version>
+      <description><![CDATA[Node.js Buffer API, for the browser]]></description>
+      <hashes>
+        <hash alg="SHA-512">153882a4dc6dc226591c465b71b4c87198c44552029fdcaafe90c591397de7f031cc3d6768172d37b60eebcae233f80b48363bb1dacc6f2f21a1f00362ebaa38</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/buffer@6.0.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/feross/buffer</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/feross/buffer/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git://github.com/feross/buffer.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -1664,31 +1689,6 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/buffer@6.0.3">
-      <name>buffer</name>
-      <version>6.0.3</version>
-      <description><![CDATA[Node.js Buffer API, for the browser]]></description>
-      <hashes>
-        <hash alg="SHA-512">153882a4dc6dc226591c465b71b4c87198c44552029fdcaafe90c591397de7f031cc3d6768172d37b60eebcae233f80b48363bb1dacc6f2f21a1f00362ebaa38</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/buffer@6.0.3</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/feross/buffer</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/feross/buffer/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git://github.com/feross/buffer.git</url>
-        </reference>
-      </externalReferences>
-    </component>
     <component type="library" bom-ref="pkg:npm/has@1.0.3">
       <name>has</name>
       <version>1.0.3</version>
@@ -1764,31 +1764,6 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/delaunator@5.0.0">
-      <name>delaunator</name>
-      <version>5.0.0</version>
-      <description><![CDATA[An incredibly fast JavaScript library for Delaunay triangulation of 2D points]]></description>
-      <hashes>
-        <hash alg="SHA-512">0322efb7225d6effd4d469224ba814533725468018e06b3be6a90cca0249854ef92d6e0336e485d91333a71b3d8f0f4ecf50686c78d37641b7cdd3f9e55c40ab</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>ISC</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/delaunator@5.0.0</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/mapbox/delaunator#readme</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/mapbox/delaunator/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/mapbox/delaunator.git</url>
-        </reference>
-      </externalReferences>
-    </component>
     <component type="library" bom-ref="pkg:npm/base64-js@1.5.1">
       <name>base64-js</name>
       <version>1.5.1</version>
@@ -1836,6 +1811,31 @@
         </reference>
         <reference type="vcs">
           <url>git://github.com/feross/ieee754.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/delaunator@5.0.0">
+      <name>delaunator</name>
+      <version>5.0.0</version>
+      <description><![CDATA[An incredibly fast JavaScript library for Delaunay triangulation of 2D points]]></description>
+      <hashes>
+        <hash alg="SHA-512">0322efb7225d6effd4d469224ba814533725468018e06b3be6a90cca0249854ef92d6e0336e485d91333a71b3d8f0f4ecf50686c78d37641b7cdd3f9e55c40ab</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/delaunator@5.0.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/mapbox/delaunator#readme</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/mapbox/delaunator/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/mapbox/delaunator.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -2040,31 +2040,6 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/mapbox-gl@1.10.1">
-      <name>mapbox-gl</name>
-      <version>1.10.1</version>
-      <description><![CDATA[A WebGL interactive maps library]]></description>
-      <hashes>
-        <hash alg="SHA-512">d1a1edfa5154a587ef87490c22a5ea357aa860cba1b80b0c970f3b4db856af0efc4f1db37ee3c8d0bc77d7f60f52027e22b7b4b73438267b812fb69c0cd5e632</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <name>SEE LICENSE IN LICENSE.txt</name>
-        </license>
-      </licenses>
-      <purl>pkg:npm/mapbox-gl@1.10.1</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/mapbox/mapbox-gl-js#readme</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/mapbox/mapbox-gl-js/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git://github.com/mapbox/mapbox-gl-js.git</url>
-        </reference>
-      </externalReferences>
-    </component>
     <component type="library" bom-ref="pkg:npm/d3-time-format@2.3.0">
       <name>d3-time-format</name>
       <version>2.3.0</version>
@@ -2112,6 +2087,56 @@
         </reference>
         <reference type="vcs">
           <url>git+https://github.com/d3/d3-format.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/mapbox-gl@1.10.1">
+      <name>mapbox-gl</name>
+      <version>1.10.1</version>
+      <description><![CDATA[A WebGL interactive maps library]]></description>
+      <hashes>
+        <hash alg="SHA-512">d1a1edfa5154a587ef87490c22a5ea357aa860cba1b80b0c970f3b4db856af0efc4f1db37ee3c8d0bc77d7f60f52027e22b7b4b73438267b812fb69c0cd5e632</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <name>SEE LICENSE IN LICENSE.txt</name>
+        </license>
+      </licenses>
+      <purl>pkg:npm/mapbox-gl@1.10.1</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/mapbox/mapbox-gl-js#readme</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/mapbox/mapbox-gl-js/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git://github.com/mapbox/mapbox-gl-js.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/world-calendars@1.0.3">
+      <name>world-calendars</name>
+      <version>1.0.3</version>
+      <description><![CDATA[Convert between various world calendars]]></description>
+      <hashes>
+        <hash alg="SHA-1">b25c5032ba24128ffc41d09faf4a5ec1b9c14335</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/world-calendars@1.0.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/alexcjohnson/world-calendars#readme</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/alexcjohnson/world-calendars/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/alexcjohnson/world-calendars.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -2191,28 +2216,28 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/world-calendars@1.0.3">
-      <name>world-calendars</name>
-      <version>1.0.3</version>
-      <description><![CDATA[Convert between various world calendars]]></description>
+    <component type="library" bom-ref="pkg:npm/is-string-blank@1.0.1">
+      <name>is-string-blank</name>
+      <version>1.0.1</version>
+      <description><![CDATA[The fast way to check if a string is blank]]></description>
       <hashes>
-        <hash alg="SHA-1">b25c5032ba24128ffc41d09faf4a5ec1b9c14335</hash>
+        <hash alg="SHA-512">f47f9904256cdcbf4e62abfc9ee500ce9713f4e4e0303d72016ac6ee28659e26dd91bb41f39d217809985b11ee5dce021f2e2529e2baf6d37e9f2d4aee0048af</hash>
       </hashes>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/world-calendars@1.0.3</purl>
+      <purl>pkg:npm/is-string-blank@1.0.1</purl>
       <externalReferences>
         <reference type="website">
-          <url>https://github.com/alexcjohnson/world-calendars#readme</url>
+          <url>https://github.com/plotly/is-string-blank#readme</url>
         </reference>
         <reference type="issue-tracker">
-          <url>https://github.com/alexcjohnson/world-calendars/issues</url>
+          <url>https://github.com/plotly/is-string-blank/issues</url>
         </reference>
         <reference type="vcs">
-          <url>git+https://github.com/alexcjohnson/world-calendars.git</url>
+          <url>git+https://github.com/plotly/is-string-blank.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -2241,28 +2266,28 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/is-string-blank@1.0.1">
-      <name>is-string-blank</name>
-      <version>1.0.1</version>
-      <description><![CDATA[The fast way to check if a string is blank]]></description>
+    <component type="library" bom-ref="pkg:npm/events@3.3.0">
+      <name>events</name>
+      <version>3.3.0</version>
+      <description><![CDATA[Node's event emitter for all engines.]]></description>
       <hashes>
-        <hash alg="SHA-512">f47f9904256cdcbf4e62abfc9ee500ce9713f4e4e0303d72016ac6ee28659e26dd91bb41f39d217809985b11ee5dce021f2e2529e2baf6d37e9f2d4aee0048af</hash>
+        <hash alg="SHA-512">990c3ed9f9106c02f343b574318d08a9d9d734e793b4fe2bd2537dcfb0006b009782a79aedb0e28b6d0062b201ac577f1f1d0cd8e733e92d75d4268591471bd1</hash>
       </hashes>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/is-string-blank@1.0.1</purl>
+      <purl>pkg:npm/events@3.3.0</purl>
       <externalReferences>
         <reference type="website">
-          <url>https://github.com/plotly/is-string-blank#readme</url>
+          <url>https://github.com/Gozala/events#readme</url>
         </reference>
         <reference type="issue-tracker">
-          <url>https://github.com/plotly/is-string-blank/issues</url>
+          <url>http://github.com/Gozala/events/issues/</url>
         </reference>
         <reference type="vcs">
-          <url>git+https://github.com/plotly/is-string-blank.git</url>
+          <url>git://github.com/Gozala/events.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -2341,56 +2366,6 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/events@3.3.0">
-      <name>events</name>
-      <version>3.3.0</version>
-      <description><![CDATA[Node's event emitter for all engines.]]></description>
-      <hashes>
-        <hash alg="SHA-512">990c3ed9f9106c02f343b574318d08a9d9d734e793b4fe2bd2537dcfb0006b009782a79aedb0e28b6d0062b201ac577f1f1d0cd8e733e92d75d4268591471bd1</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/events@3.3.0</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/Gozala/events#readme</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>http://github.com/Gozala/events/issues/</url>
-        </reference>
-        <reference type="vcs">
-          <url>git://github.com/Gozala/events.git</url>
-        </reference>
-      </externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:npm/probe-image-size@7.2.3">
-      <name>probe-image-size</name>
-      <version>7.2.3</version>
-      <description><![CDATA[Get image size without full download (JPG, GIF, PNG, WebP, BMP, TIFF, PSD)]]></description>
-      <hashes>
-        <hash alg="SHA-512">1ee6e11b845bd941fc62d5786dad15a796d0ecbefc45338d62efee8e60aee67048f301afdb8b3813dc522818b4375328c11a7193bea9142a49b56d0a3f338ad3</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/probe-image-size@7.2.3</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/nodeca/probe-image-size#readme</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/nodeca/probe-image-size/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/nodeca/probe-image-size.git</url>
-        </reference>
-      </externalReferences>
-    </component>
     <component type="library" bom-ref="pkg:npm/mouse-event-offset@3.0.2">
       <name>mouse-event-offset</name>
       <version>3.0.2</version>
@@ -2438,6 +2413,31 @@
         </reference>
         <reference type="vcs">
           <url>git+https://github.com/dfcreative/has-passive-events.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/probe-image-size@7.2.3">
+      <name>probe-image-size</name>
+      <version>7.2.3</version>
+      <description><![CDATA[Get image size without full download (JPG, GIF, PNG, WebP, BMP, TIFF, PSD)]]></description>
+      <hashes>
+        <hash alg="SHA-512">1ee6e11b845bd941fc62d5786dad15a796d0ecbefc45338d62efee8e60aee67048f301afdb8b3813dc522818b4375328c11a7193bea9142a49b56d0a3f338ad3</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/probe-image-size@7.2.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/nodeca/probe-image-size#readme</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/nodeca/probe-image-size/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/nodeca/probe-image-size.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -2592,31 +2592,6 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/gl-util@3.1.3">
-      <name>gl-util</name>
-      <version>3.1.3</version>
-      <description><![CDATA[Set of practical webgl utils]]></description>
-      <hashes>
-        <hash alg="SHA-512">76f453820c393129099c26e1ef88d9cd2a133869d560af81b7e0a4aa6dfd095725ebecd2b31a9693896be4d2a192a5c72faaaf64053d875ed917c988b2463d98</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/gl-util@3.1.3</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/dy/gl-util#readme</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/dy/gl-util/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/dy/gl-util.git</url>
-        </reference>
-      </externalReferences>
-    </component>
     <component type="library" bom-ref="pkg:npm/%40turf/area@6.5.0">
       <group>@turf</group>
       <name>area</name>
@@ -2717,6 +2692,81 @@
         </reference>
         <reference type="vcs">
           <url>git+https://github.com/voidqk/polybooljs.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/svg-path-sdf@1.1.3">
+      <name>svg-path-sdf</name>
+      <version>1.1.3</version>
+      <description><![CDATA[Get signed distance field for a svg path]]></description>
+      <hashes>
+        <hash alg="SHA-512">bc926356afd1e654abd8a2df5575404ad92d7dc7dad693458c53a0c899f36455e53bf7c36790e633c1699d228accb3df1184d5797b950531c5dbde93a71b8956</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/svg-path-sdf@1.1.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/dy/svg-path-sdf#readme</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/dy/svg-path-sdf/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/dy/svg-path-sdf.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/gl-util@3.1.3">
+      <name>gl-util</name>
+      <version>3.1.3</version>
+      <description><![CDATA[Set of practical webgl utils]]></description>
+      <hashes>
+        <hash alg="SHA-512">76f453820c393129099c26e1ef88d9cd2a133869d560af81b7e0a4aa6dfd095725ebecd2b31a9693896be4d2a192a5c72faaaf64053d875ed917c988b2463d98</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/gl-util@3.1.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/dy/gl-util#readme</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/dy/gl-util/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/dy/gl-util.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/webgl-context@2.2.0">
+      <name>webgl-context</name>
+      <version>2.2.0</version>
+      <description><![CDATA[gets a WebGLRenderingContext]]></description>
+      <hashes>
+        <hash alg="SHA-1">8f37d7257cf6df1cd0a49e6a7b1b721b94cc86a0</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/webgl-context@2.2.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/mattdesl/webgl-context</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/mattdesl/webgl-context/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git://github.com/mattdesl/webgl-context.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -2945,31 +2995,6 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/svg-path-sdf@1.1.3">
-      <name>svg-path-sdf</name>
-      <version>1.1.3</version>
-      <description><![CDATA[Get signed distance field for a svg path]]></description>
-      <hashes>
-        <hash alg="SHA-512">bc926356afd1e654abd8a2df5575404ad92d7dc7dad693458c53a0c899f36455e53bf7c36790e633c1699d228accb3df1184d5797b950531c5dbde93a71b8956</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/svg-path-sdf@1.1.3</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/dy/svg-path-sdf#readme</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/dy/svg-path-sdf/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/dy/svg-path-sdf.git</url>
-        </reference>
-      </externalReferences>
-    </component>
     <component type="library" bom-ref="pkg:npm/earcut@2.2.3">
       <name>earcut</name>
       <version>2.2.3</version>
@@ -2992,31 +3017,6 @@
         </reference>
         <reference type="vcs">
           <url>git://github.com/mapbox/earcut.git</url>
-        </reference>
-      </externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:npm/object-assign@4.1.1">
-      <name>object-assign</name>
-      <version>4.1.1</version>
-      <description><![CDATA[ES2015 `Object.assign()` ponyfill]]></description>
-      <hashes>
-        <hash alg="SHA-1">2109adc7965887cfc05cbbd442cac8bfbb360863</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/object-assign@4.1.1</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/sindresorhus/object-assign#readme</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/sindresorhus/object-assign/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/sindresorhus/object-assign.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -3095,28 +3095,28 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/webgl-context@2.2.0">
-      <name>webgl-context</name>
-      <version>2.2.0</version>
-      <description><![CDATA[gets a WebGLRenderingContext]]></description>
+    <component type="library" bom-ref="pkg:npm/object-assign@4.1.1">
+      <name>object-assign</name>
+      <version>4.1.1</version>
+      <description><![CDATA[ES2015 `Object.assign()` ponyfill]]></description>
       <hashes>
-        <hash alg="SHA-1">8f37d7257cf6df1cd0a49e6a7b1b721b94cc86a0</hash>
+        <hash alg="SHA-1">2109adc7965887cfc05cbbd442cac8bfbb360863</hash>
       </hashes>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/webgl-context@2.2.0</purl>
+      <purl>pkg:npm/object-assign@4.1.1</purl>
       <externalReferences>
         <reference type="website">
-          <url>https://github.com/mattdesl/webgl-context</url>
+          <url>https://github.com/sindresorhus/object-assign#readme</url>
         </reference>
         <reference type="issue-tracker">
-          <url>https://github.com/mattdesl/webgl-context/issues</url>
+          <url>https://github.com/sindresorhus/object-assign/issues</url>
         </reference>
         <reference type="vcs">
-          <url>git://github.com/mattdesl/webgl-context.git</url>
+          <url>git+https://github.com/sindresorhus/object-assign.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -3395,31 +3395,6 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/d3-force@1.2.1">
-      <name>d3-force</name>
-      <version>1.2.1</version>
-      <description><![CDATA[Force-directed graph layout using velocity Verlet integration.]]></description>
-      <hashes>
-        <hash alg="SHA-512">1c7bde8726a2525568e42c41274c85ff19f2e31a1ac45c439c15cdbcd71f5bd69d3911997f2345d5d8fa0c62caca4e188776eb3ffd61deb9c3cdd200c0bd3cce</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>BSD-3-Clause</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/d3-force@1.2.1</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://d3js.org/d3-force/</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/d3/d3-force/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/d3/d3-force.git</url>
-        </reference>
-      </externalReferences>
-    </component>
     <component type="library" bom-ref="pkg:npm/d3-geo@1.12.1">
       <name>d3-geo</name>
       <version>1.12.1</version>
@@ -3445,28 +3420,28 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/is-browser@2.1.0">
-      <name>is-browser</name>
-      <version>2.1.0</version>
-      <description><![CDATA[Test whether you're a component in browser or a package in npm]]></description>
+    <component type="library" bom-ref="pkg:npm/d3-force@1.2.1">
+      <name>d3-force</name>
+      <version>1.2.1</version>
+      <description><![CDATA[Force-directed graph layout using velocity Verlet integration.]]></description>
       <hashes>
-        <hash alg="SHA-512">179ad32710d0dac5bcd5f71f391d469c25d3eac5490b5d387c2c9f8fe9a3a70344c1a3d84a7e5fb5ee638879818370c7b08a0bfe5f0abf0e553794ac4d171115</hash>
+        <hash alg="SHA-512">1c7bde8726a2525568e42c41274c85ff19f2e31a1ac45c439c15cdbcd71f5bd69d3911997f2345d5d8fa0c62caca4e188776eb3ffd61deb9c3cdd200c0bd3cce</hash>
       </hashes>
       <licenses>
         <license>
-          <id>MIT</id>
+          <id>BSD-3-Clause</id>
         </license>
       </licenses>
-      <purl>pkg:npm/is-browser@2.1.0</purl>
+      <purl>pkg:npm/d3-force@1.2.1</purl>
       <externalReferences>
         <reference type="website">
-          <url>https://github.com/ForbesLindesay/is-browser#readme</url>
+          <url>https://d3js.org/d3-force/</url>
         </reference>
         <reference type="issue-tracker">
-          <url>https://github.com/ForbesLindesay/is-browser/issues</url>
+          <url>https://github.com/d3/d3-force/issues</url>
         </reference>
         <reference type="vcs">
-          <url>git+https://github.com/ForbesLindesay/is-browser.git</url>
+          <url>git+https://github.com/d3/d3-force.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -3492,6 +3467,31 @@
         </reference>
         <reference type="vcs">
           <url>git://github.com/jkroso/parse-svg-path.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/is-browser@2.1.0">
+      <name>is-browser</name>
+      <version>2.1.0</version>
+      <description><![CDATA[Test whether you're a component in browser or a package in npm]]></description>
+      <hashes>
+        <hash alg="SHA-512">179ad32710d0dac5bcd5f71f391d469c25d3eac5490b5d387c2c9f8fe9a3a70344c1a3d84a7e5fb5ee638879818370c7b08a0bfe5f0abf0e553794ac4d171115</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/is-browser@2.1.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/ForbesLindesay/is-browser#readme</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/ForbesLindesay/is-browser/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/ForbesLindesay/is-browser.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -3596,6 +3596,31 @@
         </reference>
       </externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:npm/d3-time@1.1.0">
+      <name>d3-time</name>
+      <version>1.1.0</version>
+      <description><![CDATA[A calculator for humanity’s peculiar conventions of time.]]></description>
+      <hashes>
+        <hash alg="SHA-512">5e1d22b2b679acf61876a840564f152e730489d873e5a3fb86d0000c7e8c7f38269a270f913a3c2e190bc5c8bad7f94207b9fb5261376cdd25791b7eaaf90bc4</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/d3-time@1.1.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://d3js.org/d3-time/</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/d3/d3-time/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/d3/d3-time.git</url>
+        </reference>
+      </externalReferences>
+    </component>
     <component type="library" bom-ref="pkg:npm/clamp@1.0.1">
       <name>clamp</name>
       <version>1.0.1</version>
@@ -3693,31 +3718,6 @@
         </reference>
         <reference type="vcs">
           <url>git+https://github.com/colorjs/color-parse.git</url>
-        </reference>
-      </externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:npm/d3-time@1.1.0">
-      <name>d3-time</name>
-      <version>1.1.0</version>
-      <description><![CDATA[A calculator for humanity’s peculiar conventions of time.]]></description>
-      <hashes>
-        <hash alg="SHA-512">5e1d22b2b679acf61876a840564f152e730489d873e5a3fb86d0000c7e8c7f38269a270f913a3c2e190bc5c8bad7f94207b9fb5261376cdd25791b7eaaf90bc4</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>BSD-3-Clause</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/d3-time@1.1.0</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://d3js.org/d3-time/</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/d3/d3-time/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/d3/d3-time.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -3996,31 +3996,6 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/math-log2@1.0.1">
-      <name>math-log2</name>
-      <version>1.0.1</version>
-      <description><![CDATA[ES2015 Math.log2() ponyfill]]></description>
-      <hashes>
-        <hash alg="SHA-1">fb8941be5f5ebe8979e718e6273b178e58694565</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/math-log2@1.0.1</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/sindresorhus/math-log2#readme</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/sindresorhus/math-log2/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/sindresorhus/math-log2.git</url>
-        </reference>
-      </externalReferences>
-    </component>
     <component type="library" bom-ref="pkg:npm/d3-array@1.2.4">
       <name>d3-array</name>
       <version>1.2.4</version>
@@ -4071,28 +4046,28 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/dup@1.0.0">
-      <name>dup</name>
-      <version>1.0.0</version>
-      <description><![CDATA[Initialize an array of arrays to a constant]]></description>
+    <component type="library" bom-ref="pkg:npm/math-log2@1.0.1">
+      <name>math-log2</name>
+      <version>1.0.1</version>
+      <description><![CDATA[ES2015 Math.log2() ponyfill]]></description>
       <hashes>
-        <hash alg="SHA-1">51fc5ac685f8196469df0b905e934b20af5b4029</hash>
+        <hash alg="SHA-1">fb8941be5f5ebe8979e718e6273b178e58694565</hash>
       </hashes>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/dup@1.0.0</purl>
+      <purl>pkg:npm/math-log2@1.0.1</purl>
       <externalReferences>
         <reference type="website">
-          <url>https://github.com/mikolalysenko/dup#readme</url>
+          <url>https://github.com/sindresorhus/math-log2#readme</url>
         </reference>
         <reference type="issue-tracker">
-          <url>https://github.com/mikolalysenko/dup/issues</url>
+          <url>https://github.com/sindresorhus/math-log2/issues</url>
         </reference>
         <reference type="vcs">
-          <url>git://github.com/mikolalysenko/dup.git</url>
+          <url>git+https://github.com/sindresorhus/math-log2.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -4173,6 +4148,31 @@
         </reference>
       </externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:npm/dup@1.0.0">
+      <name>dup</name>
+      <version>1.0.0</version>
+      <description><![CDATA[Initialize an array of arrays to a constant]]></description>
+      <hashes>
+        <hash alg="SHA-1">51fc5ac685f8196469df0b905e934b20af5b4029</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/dup@1.0.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/mikolalysenko/dup#readme</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/mikolalysenko/dup/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git://github.com/mikolalysenko/dup.git</url>
+        </reference>
+      </externalReferences>
+    </component>
     <component type="library" bom-ref="pkg:npm/d3-quadtree@1.0.7">
       <name>d3-quadtree</name>
       <version>1.0.7</version>
@@ -4248,6 +4248,31 @@
         </reference>
       </externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:npm/performance-now@2.1.0">
+      <name>performance-now</name>
+      <version>2.1.0</version>
+      <description><![CDATA[Implements performance.now (based on process.hrtime).]]></description>
+      <hashes>
+        <hash alg="SHA-1">6309f4e0e5fa913ec1c69307ae364b4b377c9e7b</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/performance-now@2.1.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/braveg1rl/performance-now</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/braveg1rl/performance-now/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git://github.com/braveg1rl/performance-now.git</url>
+        </reference>
+      </externalReferences>
+    </component>
     <component type="library" bom-ref="pkg:npm/es6-iterator@2.0.3">
       <name>es6-iterator</name>
       <version>2.0.3</version>
@@ -4270,81 +4295,6 @@
         </reference>
         <reference type="vcs">
           <url>git://github.com/medikoo/es6-iterator.git</url>
-        </reference>
-      </externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:npm/es5-ext@0.10.59">
-      <name>es5-ext</name>
-      <version>0.10.59</version>
-      <description><![CDATA[ECMAScript extensions and shims]]></description>
-      <hashes>
-        <hash alg="SHA-512">70e832856d2d209c9063529fc3a2abd2f8aef5995472d55c851319ed1d07887dddc534a9e732432de730c54a8f52b18a32c801235c1dd452fe77d2717e2e1c2f</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>ISC</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/es5-ext@0.10.59</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/medikoo/es5-ext#readme</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/medikoo/es5-ext/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/medikoo/es5-ext.git</url>
-        </reference>
-      </externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:npm/d@1.0.1">
-      <name>d</name>
-      <version>1.0.1</version>
-      <description><![CDATA[Property descriptor factory]]></description>
-      <hashes>
-        <hash alg="SHA-512">9bad9284439b437f427eb6a58a51104631faa0032d342575c49c84c792e945851537e12f8a984381473f17786761b0039a488db3aed8fb7ca59a51bb2e7bbe14</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>ISC</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/d@1.0.1</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/medikoo/d#readme</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/medikoo/d/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git://github.com/medikoo/d.git</url>
-        </reference>
-      </externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:npm/es6-symbol@3.1.3">
-      <name>es6-symbol</name>
-      <version>3.1.3</version>
-      <description><![CDATA[ECMAScript 6 Symbol polyfill]]></description>
-      <hashes>
-        <hash alg="SHA-512">349e989f716e0e29c168145697fab95ffb3892844706b80a02efb2188e890817a2bb7aab71b261c13d86791fc45d57f295193c7694152682c41612be32edf534</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>ISC</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/es6-symbol@3.1.3</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/medikoo/es6-symbol#readme</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/medikoo/es6-symbol/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git://github.com/medikoo/es6-symbol.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -4373,28 +4323,28 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/performance-now@2.1.0">
-      <name>performance-now</name>
-      <version>2.1.0</version>
-      <description><![CDATA[Implements performance.now (based on process.hrtime).]]></description>
+    <component type="library" bom-ref="pkg:npm/es5-ext@0.10.59">
+      <name>es5-ext</name>
+      <version>0.10.59</version>
+      <description><![CDATA[ECMAScript extensions and shims]]></description>
       <hashes>
-        <hash alg="SHA-1">6309f4e0e5fa913ec1c69307ae364b4b377c9e7b</hash>
+        <hash alg="SHA-512">70e832856d2d209c9063529fc3a2abd2f8aef5995472d55c851319ed1d07887dddc534a9e732432de730c54a8f52b18a32c801235c1dd452fe77d2717e2e1c2f</hash>
       </hashes>
       <licenses>
         <license>
-          <id>MIT</id>
+          <id>ISC</id>
         </license>
       </licenses>
-      <purl>pkg:npm/performance-now@2.1.0</purl>
+      <purl>pkg:npm/es5-ext@0.10.59</purl>
       <externalReferences>
         <reference type="website">
-          <url>https://github.com/braveg1rl/performance-now</url>
+          <url>https://github.com/medikoo/es5-ext#readme</url>
         </reference>
         <reference type="issue-tracker">
-          <url>https://github.com/braveg1rl/performance-now/issues</url>
+          <url>https://github.com/medikoo/es5-ext/issues</url>
         </reference>
         <reference type="vcs">
-          <url>git://github.com/braveg1rl/performance-now.git</url>
+          <url>git+https://github.com/medikoo/es5-ext.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -4648,6 +4598,56 @@
         </reference>
       </externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:npm/d@1.0.1">
+      <name>d</name>
+      <version>1.0.1</version>
+      <description><![CDATA[Property descriptor factory]]></description>
+      <hashes>
+        <hash alg="SHA-512">9bad9284439b437f427eb6a58a51104631faa0032d342575c49c84c792e945851537e12f8a984381473f17786761b0039a488db3aed8fb7ca59a51bb2e7bbe14</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/d@1.0.1</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/medikoo/d#readme</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/medikoo/d/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git://github.com/medikoo/d.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/es6-symbol@3.1.3">
+      <name>es6-symbol</name>
+      <version>3.1.3</version>
+      <description><![CDATA[ECMAScript 6 Symbol polyfill]]></description>
+      <hashes>
+        <hash alg="SHA-512">349e989f716e0e29c168145697fab95ffb3892844706b80a02efb2188e890817a2bb7aab71b261c13d86791fc45d57f295193c7694152682c41612be32edf534</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/es6-symbol@3.1.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/medikoo/es6-symbol#readme</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/medikoo/es6-symbol/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git://github.com/medikoo/es6-symbol.git</url>
+        </reference>
+      </externalReferences>
+    </component>
     <component type="library" bom-ref="pkg:npm/abs-svg-path@0.1.1">
       <name>abs-svg-path</name>
       <version>0.1.1</version>
@@ -4723,31 +4723,6 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/type@1.2.0">
-      <name>type</name>
-      <version>1.2.0</version>
-      <description><![CDATA[Runtime validation and processing of JavaScript types]]></description>
-      <hashes>
-        <hash alg="SHA-512">fb99ede400278aab029eed9c11041da73080877de4571f27d15a0589d2a907575554b00dfc5f9b8153aa389a8e9c49eb869db6d9c941e69def5250fed500277e</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>ISC</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/type@1.2.0</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/medikoo/type#readme</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/medikoo/type/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/medikoo/type.git</url>
-        </reference>
-      </externalReferences>
-    </component>
     <component type="library" bom-ref="pkg:npm/stream-parser@0.3.1">
       <name>stream-parser</name>
       <version>0.3.1</version>
@@ -4770,31 +4745,6 @@
         </reference>
         <reference type="vcs">
           <url>git://github.com/TooTallNate/node-stream-parser.git</url>
-        </reference>
-      </externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:npm/parenthesis@3.1.8">
-      <name>parenthesis</name>
-      <version>3.1.8</version>
-      <description><![CDATA[Parse parentheses from a string]]></description>
-      <hashes>
-        <hash alg="SHA-512">285fd4f2d939e018107b09093ef078b3f512dd5418ebc0510e91fadfcfbb3bf9f9f13a67c22c273ad1883ac4f6fe2f8cefcb3ad41069782f3749307cf1df2cab</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/parenthesis@3.1.8</purl>
-      <externalReferences>
-        <reference type="website">
-          <url>https://github.com/dy/parenthesis</url>
-        </reference>
-        <reference type="issue-tracker">
-          <url>https://github.com/dy/parenthesis/issues</url>
-        </reference>
-        <reference type="vcs">
-          <url>git://github.com/dy/parenthesis.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -4823,28 +4773,53 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/ext@1.6.0">
-      <name>ext</name>
-      <version>1.6.0</version>
-      <description><![CDATA[JavaScript utilities with respect to emerging standard]]></description>
+    <component type="library" bom-ref="pkg:npm/parenthesis@3.1.8">
+      <name>parenthesis</name>
+      <version>3.1.8</version>
+      <description><![CDATA[Parse parentheses from a string]]></description>
       <hashes>
-        <hash alg="SHA-512">b1d0489adce4ab61e991d44bb652d60daeb0e035f6da28d92cac7c04c3d4b8a7b573995b37ac70403402c527f10509c7675de5b3f147d0c419c7fabf82be8542</hash>
+        <hash alg="SHA-512">285fd4f2d939e018107b09093ef078b3f512dd5418ebc0510e91fadfcfbb3bf9f9f13a67c22c273ad1883ac4f6fe2f8cefcb3ad41069782f3749307cf1df2cab</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/parenthesis@3.1.8</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/dy/parenthesis</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/dy/parenthesis/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git://github.com/dy/parenthesis.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/type@1.2.0">
+      <name>type</name>
+      <version>1.2.0</version>
+      <description><![CDATA[Runtime validation and processing of JavaScript types]]></description>
+      <hashes>
+        <hash alg="SHA-512">fb99ede400278aab029eed9c11041da73080877de4571f27d15a0589d2a907575554b00dfc5f9b8153aa389a8e9c49eb869db6d9c941e69def5250fed500277e</hash>
       </hashes>
       <licenses>
         <license>
           <id>ISC</id>
         </license>
       </licenses>
-      <purl>pkg:npm/ext@1.6.0</purl>
+      <purl>pkg:npm/type@1.2.0</purl>
       <externalReferences>
         <reference type="website">
-          <url>https://github.com/medikoo/es5-ext/tree/ext#readme</url>
+          <url>https://github.com/medikoo/type#readme</url>
         </reference>
         <reference type="issue-tracker">
-          <url>https://github.com/medikoo/es5-ext/issues</url>
+          <url>https://github.com/medikoo/type/issues</url>
         </reference>
         <reference type="vcs">
-          <url>git+https://github.com/medikoo/es5-ext.git#ext</url>
+          <url>git+https://github.com/medikoo/type.git</url>
         </reference>
       </externalReferences>
     </component>
@@ -4870,6 +4845,31 @@
         </reference>
         <reference type="vcs">
           <url>git://github.com/browserify/stream-browserify.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/ext@1.6.0">
+      <name>ext</name>
+      <version>1.6.0</version>
+      <description><![CDATA[JavaScript utilities with respect to emerging standard]]></description>
+      <hashes>
+        <hash alg="SHA-512">b1d0489adce4ab61e991d44bb652d60daeb0e035f6da28d92cac7c04c3d4b8a7b573995b37ac70403402c527f10509c7675de5b3f147d0c419c7fabf82be8542</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/ext@1.6.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/medikoo/es5-ext/tree/ext#readme</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/medikoo/es5-ext/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/medikoo/es5-ext.git#ext</url>
         </reference>
       </externalReferences>
     </component>
@@ -5058,8 +5058,8 @@
       <dependency ref="pkg:npm/%40quasar/extras@1.13.5"/>
       <dependency ref="pkg:npm/vue-loader@16.8.3"/>
       <dependency ref="pkg:npm/vue-router@4.0.12"/>
-      <dependency ref="pkg:npm/plotly.js@2.11.1"/>
       <dependency ref="pkg:npm/jszip@3.9.1"/>
+      <dependency ref="pkg:npm/plotly.js@2.11.1"/>
     </dependency>
     <dependency ref="pkg:npm/core-js@3.21.1"/>
     <dependency ref="pkg:npm/vue@3.2.27">
@@ -5076,27 +5076,27 @@
     <dependency ref="pkg:npm/util@0.12.4">
       <dependency ref="pkg:npm/process@0.11.10"/>
       <dependency ref="pkg:npm/inherits@2.0.4"/>
-      <dependency ref="pkg:npm/is-generator-function@1.0.10"/>
       <dependency ref="pkg:npm/is-arguments@1.1.1"/>
+      <dependency ref="pkg:npm/is-generator-function@1.0.10"/>
       <dependency ref="pkg:npm/which-typed-array@1.1.7"/>
       <dependency ref="pkg:npm/is-typed-array@1.1.8"/>
-    </dependency>
-    <dependency ref="pkg:npm/%40vue/runtime-dom@3.2.27">
-      <dependency ref="pkg:npm/%40vue/runtime-core@3.2.27"/>
-      <dependency ref="pkg:npm/%40vue/shared@3.2.27"/>
     </dependency>
     <dependency ref="pkg:npm/quasar-app-extension-qhierarchy@1.0.0">
       <dependency ref="pkg:npm/quasar@2.6.6"/>
       <dependency ref="pkg:npm/quasar-ui-qhierarchy@1.0.0"/>
     </dependency>
+    <dependency ref="pkg:npm/quasar-ui-qhierarchy@1.0.0">
+      <dependency ref="pkg:npm/%40quasar/app@3.2.9"/>
+      <dependency ref="pkg:npm/quasar@2.6.6"/>
+    </dependency>
+    <dependency ref="pkg:npm/%40vue/runtime-dom@3.2.27">
+      <dependency ref="pkg:npm/%40vue/runtime-core@3.2.27"/>
+      <dependency ref="pkg:npm/%40vue/shared@3.2.27"/>
+    </dependency>
     <dependency ref="pkg:npm/assert@2.0.0">
       <dependency ref="pkg:npm/es6-object-assign@1.1.0"/>
       <dependency ref="pkg:npm/object-is@1.1.5"/>
       <dependency ref="pkg:npm/is-nan@1.3.2"/>
-    </dependency>
-    <dependency ref="pkg:npm/quasar-ui-qhierarchy@1.0.0">
-      <dependency ref="pkg:npm/%40quasar/app@3.2.9"/>
-      <dependency ref="pkg:npm/quasar@2.6.6"/>
     </dependency>
     <dependency ref="pkg:npm/vue-loader@16.8.3"/>
     <dependency ref="pkg:npm/vue-router@4.0.12"/>
@@ -5105,19 +5105,18 @@
     <dependency ref="pkg:npm/%40quasar/app@3.2.9"/>
     <dependency ref="pkg:npm/es6-object-assign@1.1.0"/>
     <dependency ref="pkg:npm/object-is@1.1.5">
-      <dependency ref="pkg:npm/call-bind@1.0.2"/>
       <dependency ref="pkg:npm/define-properties@1.1.3"/>
+      <dependency ref="pkg:npm/call-bind@1.0.2"/>
     </dependency>
     <dependency ref="pkg:npm/%40vue/runtime-core@3.2.27">
       <dependency ref="pkg:npm/%40vue/reactivity@3.2.27"/>
     </dependency>
     <dependency ref="pkg:npm/%40vue/shared@3.2.27"/>
-    <dependency ref="pkg:npm/is-generator-function@1.0.10">
-      <dependency ref="pkg:npm/has-tostringtag@1.0.0"/>
-    </dependency>
     <dependency ref="pkg:npm/is-arguments@1.1.1">
       <dependency ref="pkg:npm/call-bind@1.0.2"/>
+      <dependency ref="pkg:npm/has-tostringtag@1.0.0"/>
     </dependency>
+    <dependency ref="pkg:npm/is-generator-function@1.0.10"/>
     <dependency ref="pkg:npm/which-typed-array@1.1.7">
       <dependency ref="pkg:npm/es-abstract@1.19.1"/>
       <dependency ref="pkg:npm/foreach@2.0.5"/>
@@ -5125,25 +5124,34 @@
     </dependency>
     <dependency ref="pkg:npm/is-typed-array@1.1.8"/>
     <dependency ref="pkg:npm/is-nan@1.3.2"/>
-    <dependency ref="pkg:npm/vuex@4.0.2">
-      <dependency ref="pkg:npm/%40vue/devtools-api@6.0.0-beta.21.1"/>
+    <dependency ref="pkg:npm/define-properties@1.1.3">
+      <dependency ref="pkg:npm/object-keys@1.1.1"/>
     </dependency>
-    <dependency ref="pkg:npm/%40vue/devtools-api@6.0.0-beta.21.1"/>
     <dependency ref="pkg:npm/call-bind@1.0.2">
       <dependency ref="pkg:npm/get-intrinsic@1.1.1"/>
       <dependency ref="pkg:npm/function-bind@1.1.1"/>
     </dependency>
-    <dependency ref="pkg:npm/define-properties@1.1.3">
-      <dependency ref="pkg:npm/object-keys@1.1.1"/>
+    <dependency ref="pkg:npm/vuex@4.0.2">
+      <dependency ref="pkg:npm/%40vue/devtools-api@6.0.0-beta.21.1"/>
     </dependency>
+    <dependency ref="pkg:npm/%40vue/devtools-api@6.0.0-beta.21.1"/>
     <dependency ref="pkg:npm/has-tostringtag@1.0.0">
       <dependency ref="pkg:npm/has-symbols@1.0.2"/>
     </dependency>
-    <dependency ref="pkg:npm/es-abstract@1.19.1"/>
     <dependency ref="pkg:npm/%40vue/reactivity@3.2.27"/>
+    <dependency ref="pkg:npm/es-abstract@1.19.1"/>
     <dependency ref="pkg:npm/foreach@2.0.5"/>
     <dependency ref="pkg:npm/available-typed-arrays@1.0.5"/>
     <dependency ref="pkg:npm/has-symbols@1.0.2"/>
+    <dependency ref="pkg:npm/object-keys@1.1.1"/>
+    <dependency ref="pkg:npm/get-intrinsic@1.1.1">
+      <dependency ref="pkg:npm/has-symbols@1.0.2"/>
+      <dependency ref="pkg:npm/has@1.0.3"/>
+    </dependency>
+    <dependency ref="pkg:npm/jszip@3.9.1">
+      <dependency ref="pkg:npm/buffer@6.0.3"/>
+    </dependency>
+    <dependency ref="pkg:npm/function-bind@1.1.1"/>
     <dependency ref="pkg:npm/plotly.js@2.11.1">
       <dependency ref="pkg:npm/native-promise-only@0.8.1"/>
       <dependency ref="pkg:npm/fast-isnumeric@1.1.4"/>
@@ -5155,15 +5163,15 @@
       <dependency ref="pkg:npm/gl-text@1.3.1"/>
       <dependency ref="pkg:npm/strongly-connected-components@1.0.1"/>
       <dependency ref="pkg:npm/mapbox-gl@1.10.1"/>
+      <dependency ref="pkg:npm/world-calendars@1.0.3"/>
       <dependency ref="pkg:npm/%40plotly/point-cluster@3.1.9"/>
       <dependency ref="pkg:npm/gl-mat4@1.2.0"/>
-      <dependency ref="pkg:npm/world-calendars@1.0.3"/>
       <dependency ref="pkg:npm/has-hover@1.0.1"/>
-      <dependency ref="pkg:npm/buffer@5.7.1"/>
       <dependency ref="pkg:npm/events@3.3.0"/>
-      <dependency ref="pkg:npm/probe-image-size@7.2.3"/>
+      <dependency ref="pkg:npm/buffer@5.7.1"/>
       <dependency ref="pkg:npm/mouse-event-offset@3.0.2"/>
       <dependency ref="pkg:npm/has-passive-events@1.0.0"/>
+      <dependency ref="pkg:npm/probe-image-size@7.2.3"/>
       <dependency ref="pkg:npm/%40plotly/regl@2.1.2"/>
       <dependency ref="pkg:npm/is-mobile@2.2.2"/>
       <dependency ref="pkg:npm/color-normalize@1.5.0"/>
@@ -5180,15 +5188,10 @@
       <dependency ref="pkg:npm/mouse-change@1.4.0"/>
       <dependency ref="pkg:npm/mouse-wheel@1.2.0"/>
     </dependency>
-    <dependency ref="pkg:npm/jszip@3.9.1">
-      <dependency ref="pkg:npm/buffer@6.0.3"/>
+    <dependency ref="pkg:npm/buffer@6.0.3">
+      <dependency ref="pkg:npm/base64-js@1.5.1"/>
+      <dependency ref="pkg:npm/ieee754@1.2.1"/>
     </dependency>
-    <dependency ref="pkg:npm/get-intrinsic@1.1.1">
-      <dependency ref="pkg:npm/has-symbols@1.0.2"/>
-      <dependency ref="pkg:npm/has@1.0.3"/>
-    </dependency>
-    <dependency ref="pkg:npm/object-keys@1.1.1"/>
-    <dependency ref="pkg:npm/function-bind@1.1.1"/>
     <dependency ref="pkg:npm/d3@7.4.4">
       <dependency ref="pkg:npm/d3-array@3.1.6"/>
       <dependency ref="pkg:npm/d3-axis@3.0.0"/>
@@ -5255,18 +5258,14 @@
     <dependency ref="pkg:npm/d3-timer@3.0.1"/>
     <dependency ref="pkg:npm/d3-transition@3.0.1"/>
     <dependency ref="pkg:npm/d3-zoom@3.0.0"/>
-    <dependency ref="pkg:npm/buffer@6.0.3">
-      <dependency ref="pkg:npm/base64-js@1.5.1"/>
-      <dependency ref="pkg:npm/ieee754@1.2.1"/>
-    </dependency>
     <dependency ref="pkg:npm/has@1.0.3"/>
     <dependency ref="pkg:npm/internmap@2.0.3"/>
     <dependency ref="pkg:npm/native-promise-only@0.8.1"/>
+    <dependency ref="pkg:npm/base64-js@1.5.1"/>
+    <dependency ref="pkg:npm/ieee754@1.2.1"/>
     <dependency ref="pkg:npm/delaunator@5.0.0">
       <dependency ref="pkg:npm/robust-predicates@3.0.1"/>
     </dependency>
-    <dependency ref="pkg:npm/base64-js@1.5.1"/>
-    <dependency ref="pkg:npm/ieee754@1.2.1"/>
     <dependency ref="pkg:npm/fast-isnumeric@1.1.4">
       <dependency ref="pkg:npm/is-string-blank@1.0.1"/>
     </dependency>
@@ -5281,8 +5280,8 @@
       <dependency ref="pkg:npm/flatten-vertex-data@1.0.2"/>
       <dependency ref="pkg:npm/to-float32@1.1.0"/>
       <dependency ref="pkg:npm/parse-rect@1.2.0"/>
-      <dependency ref="pkg:npm/object-assign@4.1.1"/>
       <dependency ref="pkg:npm/is-iexplorer@1.0.0"/>
+      <dependency ref="pkg:npm/object-assign@4.1.1"/>
     </dependency>
     <dependency ref="pkg:npm/regl-line2d@3.1.2">
       <dependency ref="pkg:npm/array-normalize@1.1.4"/>
@@ -5305,9 +5304,10 @@
       <dependency ref="pkg:npm/bit-twiddle@1.0.2"/>
     </dependency>
     <dependency ref="pkg:npm/strongly-connected-components@1.0.1"/>
-    <dependency ref="pkg:npm/mapbox-gl@1.10.1"/>
     <dependency ref="pkg:npm/d3-time-format@2.3.0"/>
     <dependency ref="pkg:npm/d3-format@1.4.5"/>
+    <dependency ref="pkg:npm/mapbox-gl@1.10.1"/>
+    <dependency ref="pkg:npm/world-calendars@1.0.3"/>
     <dependency ref="pkg:npm/%40plotly/point-cluster@3.1.9">
       <dependency ref="pkg:npm/is-obj@1.0.1"/>
       <dependency ref="pkg:npm/binary-search-bounds@2.0.5"/>
@@ -5316,23 +5316,22 @@
     </dependency>
     <dependency ref="pkg:npm/gl-mat4@1.2.0"/>
     <dependency ref="pkg:npm/robust-predicates@3.0.1"/>
-    <dependency ref="pkg:npm/world-calendars@1.0.3"/>
+    <dependency ref="pkg:npm/is-string-blank@1.0.1"/>
     <dependency ref="pkg:npm/has-hover@1.0.1">
       <dependency ref="pkg:npm/is-browser@2.1.0"/>
     </dependency>
-    <dependency ref="pkg:npm/is-string-blank@1.0.1"/>
+    <dependency ref="pkg:npm/events@3.3.0"/>
     <dependency ref="pkg:npm/d3-hierarchy@1.1.9"/>
     <dependency ref="pkg:npm/d3-interpolate@1.4.0">
       <dependency ref="pkg:npm/d3-color@1.4.1"/>
     </dependency>
     <dependency ref="pkg:npm/buffer@5.7.1"/>
-    <dependency ref="pkg:npm/events@3.3.0"/>
+    <dependency ref="pkg:npm/mouse-event-offset@3.0.2"/>
+    <dependency ref="pkg:npm/has-passive-events@1.0.0"/>
     <dependency ref="pkg:npm/probe-image-size@7.2.3">
       <dependency ref="pkg:npm/stream-parser@0.3.1"/>
       <dependency ref="pkg:npm/stream-browserify@3.0.0"/>
     </dependency>
-    <dependency ref="pkg:npm/mouse-event-offset@3.0.2"/>
-    <dependency ref="pkg:npm/has-passive-events@1.0.0"/>
     <dependency ref="pkg:npm/%40plotly/regl@2.1.2"/>
     <dependency ref="pkg:npm/is-mobile@2.2.2"/>
     <dependency ref="pkg:npm/color-normalize@1.5.0">
@@ -5348,7 +5347,6 @@
       <dependency ref="pkg:npm/color-space@1.16.0"/>
       <dependency ref="pkg:npm/color-parse@1.3.8"/>
     </dependency>
-    <dependency ref="pkg:npm/gl-util@3.1.3"/>
     <dependency ref="pkg:npm/%40turf/area@6.5.0">
       <dependency ref="pkg:npm/%40turf/meta@6.5.0"/>
     </dependency>
@@ -5357,6 +5355,16 @@
     </dependency>
     <dependency ref="pkg:npm/%40turf/bbox@6.5.0"/>
     <dependency ref="pkg:npm/polybooljs@1.2.0"/>
+    <dependency ref="pkg:npm/svg-path-sdf@1.1.3">
+      <dependency ref="pkg:npm/svg-path-bounds@1.0.2"/>
+      <dependency ref="pkg:npm/draw-svg-path@1.0.0"/>
+      <dependency ref="pkg:npm/is-svg-path@1.0.2"/>
+      <dependency ref="pkg:npm/bitmap-sdf@1.0.3"/>
+    </dependency>
+    <dependency ref="pkg:npm/gl-util@3.1.3"/>
+    <dependency ref="pkg:npm/webgl-context@2.2.0">
+      <dependency ref="pkg:npm/get-canvas-context@1.0.2"/>
+    </dependency>
     <dependency ref="pkg:npm/array-bounds@1.0.1"/>
     <dependency ref="pkg:npm/color-id@1.1.0"/>
     <dependency ref="pkg:npm/glslify@7.1.1"/>
@@ -5366,14 +5374,7 @@
     <dependency ref="pkg:npm/to-float32@1.1.0"/>
     <dependency ref="pkg:npm/parse-rect@1.2.0"/>
     <dependency ref="pkg:npm/array-normalize@1.1.4"/>
-    <dependency ref="pkg:npm/svg-path-sdf@1.1.3">
-      <dependency ref="pkg:npm/svg-path-bounds@1.0.2"/>
-      <dependency ref="pkg:npm/draw-svg-path@1.0.0"/>
-      <dependency ref="pkg:npm/is-svg-path@1.0.2"/>
-      <dependency ref="pkg:npm/bitmap-sdf@1.0.3"/>
-    </dependency>
     <dependency ref="pkg:npm/earcut@2.2.3"/>
-    <dependency ref="pkg:npm/object-assign@4.1.1"/>
     <dependency ref="pkg:npm/is-iexplorer@1.0.0"/>
     <dependency ref="pkg:npm/es6-weak-map@2.0.3">
       <dependency ref="pkg:npm/es6-iterator@2.0.3"/>
@@ -5382,9 +5383,7 @@
       <dependency ref="pkg:npm/es6-symbol@3.1.3"/>
     </dependency>
     <dependency ref="pkg:npm/array-find-index@1.0.2"/>
-    <dependency ref="pkg:npm/webgl-context@2.2.0">
-      <dependency ref="pkg:npm/get-canvas-context@1.0.2"/>
-    </dependency>
+    <dependency ref="pkg:npm/object-assign@4.1.1"/>
     <dependency ref="pkg:npm/regl@2.1.0"/>
     <dependency ref="pkg:npm/is-plain-obj@1.1.0"/>
     <dependency ref="pkg:npm/css-font@1.2.0">
@@ -5407,16 +5406,16 @@
     <dependency ref="pkg:npm/font-measure@1.2.2"/>
     <dependency ref="pkg:npm/bit-twiddle@1.0.2"/>
     <dependency ref="pkg:npm/topojson-client@3.1.0"/>
+    <dependency ref="pkg:npm/d3-geo@1.12.1">
+      <dependency ref="pkg:npm/d3-array@1.2.4"/>
+    </dependency>
     <dependency ref="pkg:npm/d3-force@1.2.1">
       <dependency ref="pkg:npm/d3-quadtree@1.0.7"/>
       <dependency ref="pkg:npm/d3-dispatch@1.0.6"/>
       <dependency ref="pkg:npm/d3-timer@1.0.10"/>
     </dependency>
-    <dependency ref="pkg:npm/d3-geo@1.12.1">
-      <dependency ref="pkg:npm/d3-array@1.2.4"/>
-    </dependency>
-    <dependency ref="pkg:npm/is-browser@2.1.0"/>
     <dependency ref="pkg:npm/parse-svg-path@0.1.2"/>
+    <dependency ref="pkg:npm/is-browser@2.1.0"/>
     <dependency ref="pkg:npm/d3-geo-projection@2.9.0">
       <dependency ref="pkg:npm/d3-geo@1.12.1"/>
       <dependency ref="pkg:npm/d3-array@1.2.4"/>
@@ -5427,6 +5426,7 @@
       <dependency ref="pkg:npm/d3-array@1.2.4"/>
       <dependency ref="pkg:npm/d3-shape@1.3.7"/>
     </dependency>
+    <dependency ref="pkg:npm/d3-time@1.1.0"/>
     <dependency ref="pkg:npm/clamp@1.0.1"/>
     <dependency ref="pkg:npm/raf@3.4.1">
       <dependency ref="pkg:npm/performance-now@2.1.0"/>
@@ -5436,7 +5436,6 @@
       <dependency ref="pkg:npm/is-plain-obj@1.1.0"/>
       <dependency ref="pkg:npm/color-name@1.1.3"/>
     </dependency>
-    <dependency ref="pkg:npm/d3-time@1.1.0"/>
     <dependency ref="pkg:npm/dtype@2.0.0"/>
     <dependency ref="pkg:npm/is-obj@1.0.1"/>
     <dependency ref="pkg:npm/mouse-change@1.4.0">
@@ -5455,7 +5454,6 @@
     <dependency ref="pkg:npm/get-canvas-context@1.0.2"/>
     <dependency ref="pkg:npm/binary-search-bounds@2.0.5"/>
     <dependency ref="pkg:npm/defined@1.0.0"/>
-    <dependency ref="pkg:npm/math-log2@1.0.1"/>
     <dependency ref="pkg:npm/%40plotly/d3-sankey-circular@0.33.1">
       <dependency ref="pkg:npm/d3-array@1.2.4"/>
       <dependency ref="pkg:npm/d3-shape@1.3.7"/>
@@ -5465,27 +5463,21 @@
     <dependency ref="pkg:npm/d3-shape@1.3.7">
       <dependency ref="pkg:npm/d3-path@1.0.9"/>
     </dependency>
-    <dependency ref="pkg:npm/dup@1.0.0"/>
+    <dependency ref="pkg:npm/math-log2@1.0.1"/>
     <dependency ref="pkg:npm/%40turf/meta@6.5.0"/>
     <dependency ref="pkg:npm/%40turf/helpers@6.5.0"/>
     <dependency ref="pkg:npm/elementary-circuits-directed-graph@1.3.1"/>
+    <dependency ref="pkg:npm/dup@1.0.0"/>
     <dependency ref="pkg:npm/d3-quadtree@1.0.7"/>
     <dependency ref="pkg:npm/d3-dispatch@1.0.6"/>
     <dependency ref="pkg:npm/d3-timer@1.0.10"/>
+    <dependency ref="pkg:npm/performance-now@2.1.0"/>
     <dependency ref="pkg:npm/es6-iterator@2.0.3">
       <dependency ref="pkg:npm/es5-ext@0.10.59"/>
       <dependency ref="pkg:npm/d@1.0.1"/>
     </dependency>
-    <dependency ref="pkg:npm/es5-ext@0.10.59"/>
-    <dependency ref="pkg:npm/d@1.0.1">
-      <dependency ref="pkg:npm/es5-ext@0.10.59"/>
-      <dependency ref="pkg:npm/type@1.2.0"/>
-    </dependency>
-    <dependency ref="pkg:npm/es6-symbol@3.1.3">
-      <dependency ref="pkg:npm/ext@1.6.0"/>
-    </dependency>
     <dependency ref="pkg:npm/d3-collection@1.0.7"/>
-    <dependency ref="pkg:npm/performance-now@2.1.0"/>
+    <dependency ref="pkg:npm/es5-ext@0.10.59"/>
     <dependency ref="pkg:npm/unquote@1.1.1"/>
     <dependency ref="pkg:npm/css-global-keywords@1.0.1"/>
     <dependency ref="pkg:npm/css-system-font-keywords@1.0.0"/>
@@ -5500,19 +5492,26 @@
       <dependency ref="pkg:npm/svg-arc-to-cubic-bezier@3.2.0"/>
     </dependency>
     <dependency ref="pkg:npm/color-name@1.1.3"/>
+    <dependency ref="pkg:npm/d@1.0.1">
+      <dependency ref="pkg:npm/es5-ext@0.10.59"/>
+      <dependency ref="pkg:npm/type@1.2.0"/>
+    </dependency>
+    <dependency ref="pkg:npm/es6-symbol@3.1.3">
+      <dependency ref="pkg:npm/ext@1.6.0"/>
+    </dependency>
     <dependency ref="pkg:npm/abs-svg-path@0.1.1"/>
     <dependency ref="pkg:npm/normalize-svg-path@0.1.0"/>
     <dependency ref="pkg:npm/css-font-size-keywords@1.0.0"/>
-    <dependency ref="pkg:npm/type@1.2.0"/>
     <dependency ref="pkg:npm/stream-parser@0.3.1">
       <dependency ref="pkg:npm/debug@2.6.9"/>
     </dependency>
-    <dependency ref="pkg:npm/parenthesis@3.1.8"/>
     <dependency ref="pkg:npm/d3-path@1.0.9"/>
-    <dependency ref="pkg:npm/ext@1.6.0"/>
+    <dependency ref="pkg:npm/parenthesis@3.1.8"/>
+    <dependency ref="pkg:npm/type@1.2.0"/>
     <dependency ref="pkg:npm/stream-browserify@3.0.0">
       <dependency ref="pkg:npm/readable-stream@3.6.0"/>
     </dependency>
+    <dependency ref="pkg:npm/ext@1.6.0"/>
     <dependency ref="pkg:npm/svg-arc-to-cubic-bezier@3.2.0"/>
     <dependency ref="pkg:npm/debug@2.6.9">
       <dependency ref="pkg:npm/ms@2.0.0"/>
